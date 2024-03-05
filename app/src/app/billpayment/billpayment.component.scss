@@ -1,0 +1,37 @@
+@font-face {
+  font-family: text-security-disc;
+  src: url("https://raw.githubusercontent.com/noppa/text-security/master/dist/text-security-disc.woff");
+}
+
+input.pw {
+  font-family: text-security-disc;
+  -webkit-text-security: disc;
+  -moz-text-security: disc;
+  border: #000 solid 1px;
+  border-radius: 4px;
+  padding: 3px 5px;
+  height: 24px;
+  width: 149px;
+}
+
+.disable-btn {
+  background-color: #cfd1d3;
+  border: 0 !important;
+  border-radius: 3px;
+  color: #bdbaba;
+  cursor: auto;
+  font-family: arial;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 3px 9px;
+  margin-top: 16px;
+  pointer-events: none;
+}
+
+:host ::ng-deep .k-dropdown-wrap .k-input {
+  text-overflow: unset;
+}
+
+body {
+  overflow: hidden;
+}

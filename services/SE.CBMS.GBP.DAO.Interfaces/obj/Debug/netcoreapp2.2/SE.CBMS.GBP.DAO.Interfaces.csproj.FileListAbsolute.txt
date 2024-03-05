@@ -1,0 +1,13 @@
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.DAO.Interfaces\bin\Debug\netcoreapp2.2\SE.CBMS.GBP.DAO.Interfaces.deps.json
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.DAO.Interfaces\bin\Debug\netcoreapp2.2\SE.CBMS.GBP.DAO.Interfaces.dll
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.DAO.Interfaces\bin\Debug\netcoreapp2.2\SE.CBMS.GBP.DAO.Interfaces.pdb
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.DAO.Interfaces\bin\Debug\netcoreapp2.2\SE.CBMS.GBP.ViewModels.dll
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.DAO.Interfaces\bin\Debug\netcoreapp2.2\SE.CBMS.GBP.ViewModels.pdb
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.DAO.Interfaces\obj\Debug\netcoreapp2.2\SE.CBMS.GBP.DAO.Interfaces.csproj.AssemblyReference.cache
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.DAO.Interfaces\obj\Debug\netcoreapp2.2\SE.CBMS.GBP.DAO.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.DAO.Interfaces\obj\Debug\netcoreapp2.2\SE.CBMS.GBP.DAO.Interfaces.AssemblyInfoInputs.cache
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.DAO.Interfaces\obj\Debug\netcoreapp2.2\SE.CBMS.GBP.DAO.Interfaces.AssemblyInfo.cs
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.DAO.Interfaces\obj\Debug\netcoreapp2.2\SE.CBMS.GBP.DAO.Interfaces.csproj.CoreCompileInputs.cache
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.DAO.Interfaces\obj\Debug\netcoreapp2.2\SE.CBMS.GBP.DAO.Interfaces.csproj.CopyComplete
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.DAO.Interfaces\obj\Debug\netcoreapp2.2\SE.CBMS.GBP.DAO.Interfaces.dll
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.DAO.Interfaces\obj\Debug\netcoreapp2.2\SE.CBMS.GBP.DAO.Interfaces.pdb

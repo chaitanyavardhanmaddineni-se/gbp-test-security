@@ -1,0 +1,44 @@
+<div class="allBudgetGrid">
+    <div class="bx-header gridHeader row">
+        Charges</div>
+    <div id="chargesGrid">
+        <kendo-grid style="width: 100%;" [data]="chargeData" [style.maxHeight.px]="400"
+            [sortable]="{allowUnsort: false, mode: 'single'}" [sort]="sort" (sortChange)="sortChange($event)"
+            [pageable]="isPageable ? {
+            buttonCount: buttonCount,
+            info: info,
+            type: type,
+            pageSizes: [25,50,75,100],
+            previousNext: previousNext
+        } : false" [pageSize]="pageSize" [skip]="skip" (pageChange)="pageChange($event)">
+            <kendo-grid-column title="Invoice Id" field="invoiceId" width=30>
+                <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex">
+                    <a class="invoice-link" (click)="openInvoice(dataItem)">{{dataItem.invoiceId}}</a>&nbsp;
+                </ng-template>
+            </kendo-grid-column>
+            <kendo-grid-column title="Account" field="accountNumber" width=80>
+                <!-- <ng-template kendoGridCellTemplate let-dataItem let-rowIndex=" rowIndex">
+                    {{accountNumber}}
+                </ng-template> -->
+            </kendo-grid-column>
+            <kendo-grid-column title="Ubm Services" field="ubmService" width=50>
+            </kendo-grid-column>
+            <kendo-grid-column title="Commodity" field="commodity" width=60>
+            </kendo-grid-column>
+            <kendo-grid-column title="Ubm Bucket" field="ubmBucket" width=50>
+            </kendo-grid-column>
+            <kendo-grid-column title="Bucket" field="bucket" width=50>
+            </kendo-grid-column>
+            <kendo-grid-column title="Name" field="chargeName" width=120>
+            </kendo-grid-column>
+            <kendo-grid-column title="Value" field="chargeValue" width=30>
+                 <!-- <ng-template kendoGridCellTemplate let-dataItem>
+                    {{ dataItem.chargeValue | number: '1.2-2' }}
+                  </ng-template> -->
+            </kendo-grid-column>
+            <kendo-grid-column title="" field="cuDeterminantCode" width=20>
+            </kendo-grid-column>
+        </kendo-grid>
+
+    </div>
+</div>

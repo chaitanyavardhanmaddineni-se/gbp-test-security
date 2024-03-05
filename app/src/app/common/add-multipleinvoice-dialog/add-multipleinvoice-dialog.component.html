@@ -1,0 +1,62 @@
+<kendo-dialog class="k-multiple" (close)="close()">
+    <kendo-dialog-titlebar class="titlebar">
+        <div style="font-size: 14px; line-height: 1.3em; font-weight:Bold">
+            <span>Assign Invoice Numbers</span>
+        </div>
+    </kendo-dialog-titlebar>
+        <div id="miGrid">
+            <kendo-grid class="k-multipleinvoice" style="width: 100%;" [data]="gridData" [style.maxHeight.px]="460"
+                [pageable]= "isPageable ? {
+                    buttonCount: buttonCount,
+                    info: info,
+                    type: type,
+                    pageSizes: [25,50,75,100],
+                    previousNext: previousNext
+                } : false" [pageSize]="pageSize" [skip]="skip" (pageChange)="pageChange($event)">
+                <kendo-grid-column title="Account Number" field="accountNumber" width=45>
+                    <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex">
+                        <ng-container [formGroup]="dataItem">
+                            <a (click)="openAccount(dataItem)">{{dataItem.value.accountNumber}}</a>
+                        </ng-container>
+                        
+                    </ng-template>
+                </kendo-grid-column>
+                <kendo-grid-column title="Invoice Number" field="invoiceNumber" width=45>
+                    <ng-template kendoGridCellTemplate let-dataItem>
+                        <ng-container [formGroup]="dataItem">
+                            <input kendoTextBox [(ngModel)]="dataItem.value.invoiceNumber"
+                            (change)="assignInvoiceNumber($event.target.value,dataItem)"
+                            formControlName="invoiceNumber">
+                        </ng-container>
+                        
+                    </ng-template>
+                </kendo-grid-column>
+                <kendo-grid-column title="Client Id" field="clientId" width=50 hidden="true">
+                </kendo-grid-column>
+                <kendo-grid-column title="Site Id" field="siteId" width=50 hidden="true">
+                </kendo-grid-column>
+                <kendo-grid-column title="Account Id" field="accountId" width=50 hidden="true">
+                </kendo-grid-column>
+                <ng-template kendoGridNoRecordsTemplate>
+                    No records available.
+                </ng-template>
+            </kendo-grid>
+        </div>
+    <div class="leftDiv">
+        <kendo-dialog-actions class="k-multiple">
+            <div class="pl5">
+                <span> <button kendoButton [ngClass]="isDisable() ? 'disable-btn':'saveBtn'" class="saveBtn" (click)="SaveMultipleInvoices()" [disabled]="isDisable()">Save</button></span>
+                <span><button kendoButton class="saveBtn" (click)="close()">Close</button></span>
+            </div>
+          
+           
+            
+        </kendo-dialog-actions>
+
+    </div>
+       
+    <div class="rtDiv">        
+        <span *ngIf="ispaymentsent"  style="color: red" text-align="float-right" >{{msg}}</span>
+    </div>
+
+</kendo-dialog>

@@ -1,0 +1,88 @@
+<div class="subContainer">
+    <div class="bx-header gridHeader ">
+        Account Information
+        <a class="viewinvoice" [routerLink]="['/ViewPayloadJSONData', invoiceId]" target="_blank" style="float: right;"
+            *ngIf="isLinkDisabled">View Payload JSON</a>
+        <span class="viewinvoice" style="float: right;" *ngIf="invoiceObj" (click)="openInvoice()">Sibling
+            Invoice</span>
+        <span class="viewimage" style="float: right;" *ngIf="imageIddtl" (click)="openImage(imageIddtl)">View
+            Image</span>
+        <!-- <a style="cursor: pointer; text-align: right; color: rgba(255, 221, 0, 0.904); width: 50%; width: 50%;"> >>Invoice Payment </a> -->
+    </div>
+    <div class="info">
+        <div class=" inlineDiv">
+            <label>Group Account: </label>
+            <span>{{groupAcnt}}</span>
+        </div>
+        <div class=" inlineDiv">
+            <label>Client Name: </label>
+            <span>{{clientName}}</span>
+        </div>
+        <div class=" inlineDiv">
+            <label>Currency: </label>
+            <span>{{currency}}</span>
+        </div>
+        <div class=" inlineDiv">
+            <label>Country: </label>
+            <span>{{country}}</span>
+        </div>
+        <div class="inlineDiv">
+            <label>Vendor: </label>
+            <span>{{vendorName}}</span>
+        </div>
+        <div class=" inlineDiv">
+            <label>UBM: </label>
+            <span>{{ubm}}</span>
+        </div>
+        <div class=" inlineDiv">
+            <label>Group Key: </label>
+            <span>{{groupKey}}</span>
+        </div>
+    </div>
+    <div class="row">
+        <div id="GBPGrid">
+            <kendo-grid style="width: 100%;" [data]="accountData">
+                <kendo-grid-column title="Site" field="siteName">
+                </kendo-grid-column>
+                <kendo-grid-column title="Address" field="address">
+                </kendo-grid-column>
+                <kendo-grid-column title="Account Type" field="accountType">
+                </kendo-grid-column>
+                <kendo-grid-column title="Vendor" field="vendorName">
+                </kendo-grid-column>
+                <kendo-grid-column title="Account" field="accountNumber">
+                </kendo-grid-column>
+                <kendo-grid-column title="Commodity" field="commodity">
+                </kendo-grid-column>
+                <kendo-grid-column title="Meter Number" field="meterNumber">
+                </kendo-grid-column>
+                <kendo-grid-column title="Contract Number" field="contractNumber">
+                </kendo-grid-column>
+                <kendo-grid-column title="Supplier Account Start Date" field="supplierAccountStartDt">
+                    <ng-template kendoGridCellTemplate let-dataItem>
+                        {{ dataItem.supplierAccountStartDt | date:'MM/dd/yyyy' }}
+                    </ng-template>
+                </kendo-grid-column>
+                <kendo-grid-column title="Supplier Account End Date" field="supplierAccountEndDt">
+                    <ng-template kendoGridCellTemplate let-dataItem>
+                        {{ dataItem.supplierAccountEndDt | date:'MM/dd/yyyy' }}
+                    </ng-template>
+                </kendo-grid-column>
+                <kendo-grid-column title="Rate" field="rate">
+                </kendo-grid-column>
+                <kendo-grid-column title="Currency" field="currency">
+                </kendo-grid-column>
+                <kendo-grid-column title="Payment Effective Date" field="paymentStartDate">
+                    <ng-template kendoGridCellTemplate let-dataItem>
+                        <div style="color: red;">
+                            {{ dataItem.paymentStartDate | date:'dd-MMM-yyyy' }}
+                        </div>                       
+                    </ng-template>
+                </kendo-grid-column>
+                <ng-template kendoGridNoRecordsTemplate>
+                    No data matched criteria.
+                </ng-template>
+            </kendo-grid>
+        </div>
+    </div>
+</div>

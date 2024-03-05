@@ -1,0 +1,32 @@
+[
+    {
+        "ErrorMessage": "A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond",
+        "RetryCount": 1
+    },
+    {
+        "ErrorMessage": "A connection was successfully established with the server, but then an error occurred during the login process",
+        "RetryCount": 1
+    },
+    {
+        "ErrorMessage": "Login failed for user 'NetStress.'.",
+        "RetryCount": 2
+    },
+    {
+        "ErrorMessage": " An existing connection was forcibly closed by the remote host.) ---> ",
+        "RetryCount": 1
+    },
+    {
+        "ErrorMessage": "Object reference not set to an instance of an object.",
+        "RetryCount": 2
+    },
+    {
+        "ErrorMessage": "Request failed.",
+        "RetryCount": 2
+    },
+    {
+        "ErrorMessage": "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (pr...",
+        "RetryCount": 1
+    }
+]
+
+   

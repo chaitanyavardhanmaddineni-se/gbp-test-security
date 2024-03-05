@@ -1,0 +1,15 @@
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.Business\bin\Debug\netcoreapp2.2\SE.CBMS.GBP.Business.deps.json
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.Business\bin\Debug\netcoreapp2.2\SE.CBMS.GBP.Business.dll
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.Business\bin\Debug\netcoreapp2.2\SE.CBMS.GBP.Business.pdb
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.Business\bin\Debug\netcoreapp2.2\SE.CBMS.GBP.DAO.Interfaces.dll
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.Business\bin\Debug\netcoreapp2.2\SE.CBMS.GBP.ViewModels.dll
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.Business\bin\Debug\netcoreapp2.2\SE.CBMS.GBP.DAO.Interfaces.pdb
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.Business\bin\Debug\netcoreapp2.2\SE.CBMS.GBP.ViewModels.pdb
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.Business\obj\Debug\netcoreapp2.2\SE.CBMS.GBP.Business.csproj.AssemblyReference.cache
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.Business\obj\Debug\netcoreapp2.2\SE.CBMS.GBP.Business.GeneratedMSBuildEditorConfig.editorconfig
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.Business\obj\Debug\netcoreapp2.2\SE.CBMS.GBP.Business.AssemblyInfoInputs.cache
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.Business\obj\Debug\netcoreapp2.2\SE.CBMS.GBP.Business.AssemblyInfo.cs
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.Business\obj\Debug\netcoreapp2.2\SE.CBMS.GBP.Business.csproj.CoreCompileInputs.cache
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.Business\obj\Debug\netcoreapp2.2\SE.CBMS.GBP.Business.csproj.CopyComplete
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.Business\obj\Debug\netcoreapp2.2\SE.CBMS.GBP.Business.dll
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.Business\obj\Debug\netcoreapp2.2\SE.CBMS.GBP.Business.pdb

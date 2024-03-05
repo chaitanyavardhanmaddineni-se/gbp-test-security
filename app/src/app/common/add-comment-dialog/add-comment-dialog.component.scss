@@ -1,0 +1,61 @@
+.titlebar {
+  height: 30px;
+  border-color: inherit;
+  color: #ffffff;
+  background-color: #214285;
+}
+
+.yesBtn {
+  background-color: #0888ca;
+  border: 0 !important;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  font-family: arial;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.4;
+  padding: 3px 9px;
+  margin: 0px 3px !important;
+}
+
+.spaceMar {
+  margin: 0px 10px;
+}
+
+.k-dialog-buttongroup {
+  border-width: 0px !important;
+}
+
+.centerDiv {
+  // margin-right: 190px;
+  text-align: center;
+  margin-bottom: 10px;
+  .k-window-actions{
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+.messageClass {
+  text-align: left;
+  font-size: 12px;
+  color: black;
+  padding-top: 10px;
+}
+
+.txtArea {
+  width: 70%;
+  margin-left: 25%;
+  margin-top: -19px;
+  font-size: 12px;
+}
+
+.showError {
+  color: red;
+  text-align: center;
+  font-weight:bold;
+  font-size: 12px;
+  padding-bottom: 6px;
+}

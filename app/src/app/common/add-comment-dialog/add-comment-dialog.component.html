@@ -1,0 +1,25 @@
+<kendo-dialog (close)="close('')">
+  <kendo-dialog-titlebar class="titlebar">
+    <div style="font-size: 15px; line-height: 1.3em;">
+      <span>{{title}}</span>
+    </div>
+  </kendo-dialog-titlebar>
+  <div class="messageDiv">
+    <span class="messageClass">Add Comment: </span>
+  </div>
+  <div>
+    <textarea rows='3' class="txtArea" kendoTooltip [(ngModel)]="commentText"
+      placeholder="Enter comments here...">
+     </textarea>
+    <div class="showError" *ngIf="commentText === null || commentText === undefined || commentText === '' || this.commentText.trim().length === 0">
+      <span>{{errorMsg}}</span>
+    </div>
+  </div>
+  <div class="centerDiv">
+    <kendo-dialog-actions>
+      <ng-template ngFor [ngForOf]="buttons" let-btn>
+        <button kendoButton class="yesBtn spaceMar mr-1 " (click)="close(btn)">{{ btn }}</button>
+      </ng-template>
+    </kendo-dialog-actions>
+  </div>
+</kendo-dialog>

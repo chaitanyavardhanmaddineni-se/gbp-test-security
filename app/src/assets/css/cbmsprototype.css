@@ -1,0 +1,1799 @@
+BODY {
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px;
+    PADDING-TOP: 0px;
+    BACKGROUND-COLOR: #ffffff
+}
+
+.Nav1 {
+    BACKGROUND-COLOR: #000000;
+    TEXT-ALIGN: center
+}
+
+.Nav2 {
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: #214285;
+    TEXT-ALIGN: center;
+    TEXT-DECORATION: none
+}
+
+.Header {
+    BACKGROUND-COLOR: #214285
+}
+
+.HeaderBase {
+    BACKGROUND-POSITION: left top;
+    /*BACKGROUND-IMAGE: url(../image/summit_header_base.jpg);*/
+    BACKGROUND-REPEAT: repeat-x
+}
+
+.Nav1 .Option {
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #ffffff;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: none
+}
+
+.Nav1 .Divider {
+    BACKGROUND-COLOR: #ff9218
+}
+
+.Nav2 .Option {
+    FONT-SIZE: 12px;
+    COLOR: #ffffff;
+    TEXT-ALIGN: center;
+    TEXT-DECORATION: none
+}
+
+.Nav2 .Divider {
+    BACKGROUND-COLOR: #ffffff
+}
+
+.Nav2 .Spacer {}
+
+.PageGrid {
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px;
+    WIDTH: 100%;
+    PADDING-TOP: 0px
+}
+
+.PageGrid .Data {
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 5px;
+    PADDING-BOTTOM: 3px;
+    PADDING-TOP: 5px;
+    FONT-SIZE: 12px;
+    FONT-FAMILY: Arial
+}
+
+.IndexTable {
+    BORDER-RIGHT: 1px solid;
+    PADDING-RIGHT: 0px;
+    BORDER-TOP: 1px solid;
+    PADDING-LEFT: 0px;
+    FONT-SIZE: 12px;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px;
+    BORDER-LEFT: 1px solid;
+    PADDING-TOP: 0px;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Arial
+}
+
+.DetailTable .Title {
+    PADDING-RIGHT: 2px;
+    PADDING-LEFT: 5px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 13px;
+    PADDING-BOTTOM: 2px;
+    COLOR: #ffffff;
+    PADDING-TOP: 2px;
+    BACKGROUND-COLOR: #214285
+}
+
+.DetailTable .Label {
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 5px;
+    FONT-SIZE: 12px;
+    PADDING-BOTTOM: 3px;
+    PADDING-TOP: 5px
+}
+
+.DetailTable .Data {
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 5px;
+    PADDING-BOTTOM: 3px;
+    PADDING-TOP: 5px
+}
+
+INPUT {
+    BORDER-RIGHT: 1px solid;
+    PADDING-RIGHT: 3px;
+    BORDER-TOP: 1px solid;
+    PADDING-LEFT: 3px;
+    BORDER-LEFT: 1px solid;
+    BORDER-BOTTOM: 1px solid;
+    BACKGROUND-COLOR: #ffffff
+}
+
+.red {
+    BORDER-RIGHT: 1px solid;
+    PADDING-RIGHT: 3px;
+    BORDER-TOP: 1px solid;
+    COLOR: #FF0000;
+    PADDING-LEFT: 3px;
+    BORDER-LEFT: 1px solid;
+    BORDER-BOTTOM: 1px solid;
+    BACKGROUND-COLOR: #ffffff
+}
+
+.DetailTable .Control {
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 5px;
+    PADDING-BOTTOM: 3px;
+    PADDING-TOP: 3px;
+    BACKGROUND-COLOR: #cccccc
+}
+
+.IndexTable .Title {
+    PADDING-RIGHT: 2px;
+    PADDING-LEFT: 5px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 13px;
+    PADDING-BOTTOM: 2px;
+    COLOR: white;
+    PADDING-TOP: 2px;
+    BACKGROUND-COLOR: #214285
+}
+
+.IndexTable .Label {
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 5px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    PADDING-BOTTOM: 3px;
+    PADDING-TOP: 3px;
+    BACKGROUND-COLOR: #cccccc
+}
+
+.IndexTable .DarkLabel {
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 5px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    PADDING-BOTTOM: 3px;
+    PADDING-TOP: 3px;
+    COLOR: #FFFFFF;
+    BACKGROUND-COLOR: #999999
+}
+
+.IndexTable .Data1 {
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 5px;
+    PADDING-BOTTOM: 3px;
+    PADDING-TOP: 3px;
+    BACKGROUND-COLOR: #ffffff;
+    font-size: 12px;
+
+}
+
+.IndexTable .Data2 {
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 5px;
+    PADDING-BOTTOM: 3px;
+    PADDING-TOP: 3px;
+    BACKGROUND-COLOR: #f6f6f6;
+    font-size: 12px;
+
+}
+
+.IndexTable .Data3 {
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 5px;
+    FONT-SIZE: 11px;
+    PADDING-BOTTOM: 3px;
+    PADDING-TOP: 3px;
+    BACKGROUND-COLOR: #ffffff
+}
+
+.IndexTable .Data4 {
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 5px;
+    FONT-SIZE: 11px;
+    PADDING-BOTTOM: 3px;
+    PADDING-TOP: 3px;
+    BACKGROUND-COLOR: #f6f6f6
+}
+
+.IndexTable .darknames {
+    font-size: 8.0pt;
+    font-family: Arial, sans-serif;
+    BACKGROUND-COLOR: #f6f6f6
+}
+
+.IndexTable .names {
+    font-size: 8.0pt;
+    font-family: Arial, sans-serif;
+}
+
+.IndexTable .DataYellow {
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 5px;
+    PADDING-BOTTOM: 3px;
+    PADDING-TOP: 3px;
+    BACKGROUND-COLOR: #FFFF00
+}
+
+.IndexTable .DataPaleYellow {
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 5px;
+    PADDING-BOTTOM: 3px;
+    PADDING-TOP: 3px;
+    BACKGROUND-COLOR: #FFFF99
+}
+
+.IndexTable .DataErrorOverBill {
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 5px;
+    PADDING-BOTTOM: 3px;
+    PADDING-TOP: 3px;
+    BACKGROUND-COLOR: #ff0000
+}
+
+.IndexTable .DataErrorUnderBill {
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 5px;
+    PADDING-BOTTOM: 3px;
+    PADDING-TOP: 3px;
+    BACKGROUND-COLOR: #ffff00
+}
+
+.IndexTable .Filter {
+    BORDER-RIGHT: 1px;
+    PADDING-RIGHT: 10px;
+    BORDER-TOP: 1px;
+    PADDING-LEFT: 10px;
+    PADDING-BOTTOM: 10px;
+    BORDER-LEFT: 1px;
+    PADDING-TOP: 10px;
+    BORDER-BOTTOM: 1px;
+    BACKGROUND-COLOR: #f6f6f6
+}
+
+.FilterTable {
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 3px;
+    FONT-SIZE: 10px;
+    PADDING-BOTTOM: 1px;
+    TEXT-TRANSFORM: uppercase;
+    PADDING-TOP: 0px;
+    FONT-FAMILY: Arial
+}
+
+.FilterTable tr td {
+    padding: 5px;
+}
+
+.FilterTable .Label {
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 3px;
+    FONT-SIZE: 10px;
+    PADDING-BOTTOM: 1px;
+    TEXT-TRANSFORM: uppercase;
+    PADDING-TOP: 0px;
+    BACKGROUND-COLOR: #f6f6f6
+}
+
+.IndexTable .Paging {
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 5px;
+    FONT-WEIGHT: bold;
+    PADDING-BOTTOM: 3px;
+    PADDING-TOP: 3px;
+    BACKGROUND-COLOR: #cccccc
+}
+
+.IndexTable .PagingOption {
+    FONT-WEIGHT: bold;
+    COLOR: #3300cc;
+    TEXT-DECORATION: none
+}
+
+.TitleTable {
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-BOTTOM: 0px;
+    PADDING-TOP: 0px;
+    BACKGROUND-COLOR: #214285
+}
+
+.TitleTable .Title {
+    PADDING-RIGHT: 10px;
+    PADDING-LEFT: 0px;
+    PADDING-BOTTOM: 0px;
+    PADDING-TOP: 0px
+}
+
+.TitleTable .Control {
+    PADDING-RIGHT: 10px
+}
+
+.TitleTable .Option {
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #ffcc33;
+    TEXT-DECORATION: none
+}
+
+.DarkLabel .Option {
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    TEXT-DECORATION: none
+}
+
+OPTION {
+    BACKGROUND-COLOR: #ffffff
+}
+
+SELECT {
+    BORDER-RIGHT: 1px;
+    BORDER-TOP: 1px;
+    BORDER-LEFT: 1px;
+    BORDER-BOTTOM: 1px;
+    border-style: solid;
+    text-transform: none !important;
+}
+
+.Nav2 .Label {
+    COLOR: #ffffff
+}
+
+.HybridTable {
+    BORDER-RIGHT: 1px;
+    PADDING-RIGHT: 0px;
+    BORDER-TOP: 1px;
+    PADDING-LEFT: 0px;
+    FONT-SIZE: 12px;
+    PADDING-BOTTOM: 0px;
+    BORDER-LEFT: 1px;
+    PADDING-TOP: 0px;
+    BORDER-BOTTOM: 1px;
+    FONT-FAMILY: Arial
+}
+
+.HybridTable .Title {
+    PADDING-RIGHT: 2px;
+    PADDING-LEFT: 5px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    PADDING-BOTTOM: 2px;
+    COLOR: #ffffff;
+    PADDING-TOP: 2px;
+    BACKGROUND-COLOR: #214285
+}
+
+.HybridTable .Label {
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 5px;
+    FONT-SIZE: 10px;
+    PADDING-BOTTOM: 5px;
+    TEXT-TRANSFORM: uppercase;
+    PADDING-TOP: 3px
+}
+
+.HybridTable .Data {
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 5px;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 11px;
+    PADDING-BOTTOM: 1px;
+    PADDING-TOP: 1px
+}
+
+.InlineLink {
+    FONT-WEIGHT: bold;
+    COLOR: #3300cc;
+    TEXT-DECORATION: none
+}
+
+.HybridTable .Subtitle {
+    PADDING-RIGHT: 5px;
+    PADDING-LEFT: 5px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 16px;
+    PADDING-BOTTOM: 5px;
+    PADDING-TOP: 5px
+}
+
+.Clean {
+    background-color: transparent;
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none
+}
+
+.CleanGray {
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none;
+    background-color: transparent
+}
+
+.HelpTable {
+    FONT-SIZE: 12px;
+    FONT-FAMILY: Arial
+}
+
+.HelpTable .Title {
+    PADDING-RIGHT: 2px;
+    PADDING-LEFT: 5px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    PADDING-BOTTOM: 2px;
+    COLOR: #ffffff;
+    PADDING-TOP: 2px;
+    BACKGROUND-COLOR: #ff9900
+}
+
+.HelpTable .Data {
+    PADDING-RIGHT: 10px;
+    PADDING-LEFT: 10px;
+    PADDING-BOTTOM: 10px;
+    PADDING-TOP: 10px
+}
+
+.DetailTable .Spacer {
+    HEIGHT: 5px
+}
+
+.TitleTable .TitleControl {
+    PADDING-RIGHT: 10px
+}
+
+.StepTable {
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    FONT-SIZE: 11px;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px;
+    PADDING-TOP: 0px;
+    FONT-FAMILY: Arial
+}
+
+.StepTable .StepHeadingActive {
+    PADDING-RIGHT: 20px;
+    PADDING-LEFT: 20px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    PADDING-BOTTOM: 5px;
+    COLOR: #214285;
+    PADDING-TOP: 5px
+}
+
+.StepTable .StepHeadingDisabled {
+    BORDER-RIGHT: 1px;
+    PADDING-RIGHT: 20px;
+    BORDER-TOP: 1px;
+    PADDING-LEFT: 20px;
+    PADDING-BOTTOM: 5px;
+    BORDER-LEFT: 1px;
+    COLOR: #666666;
+    PADDING-TOP: 5px;
+    BORDER-BOTTOM: 1px
+}
+
+.StepTable .StepHeadingEnabled {
+    PADDING-RIGHT: 20px;
+    PADDING-LEFT: 20px;
+    PADDING-BOTTOM: 5px;
+    COLOR: #666666;
+    PADDING-TOP: 5px
+}
+
+.StepTable .StepDescActive {
+    PADDING-RIGHT: 20px;
+    PADDING-LEFT: 20px;
+    FONT-WEIGHT: bold;
+    PADDING-BOTTOM: 20px;
+    COLOR: #214285;
+    PADDING-TOP: 5px
+}
+
+.StepTable .StepDescDisabled {
+    PADDING-RIGHT: 20px;
+    PADDING-LEFT: 20px;
+    PADDING-BOTTOM: 20px;
+    COLOR: #cccccc;
+    PADDING-TOP: 5px
+}
+
+.StepTable .StepDescEnabled {
+    PADDING-RIGHT: 20px;
+    PADDING-LEFT: 20px;
+    PADDING-BOTTOM: 20px;
+    COLOR: #666666;
+    PADDING-TOP: 5px
+}
+
+.StepTable .StepLink {
+    FONT-WEIGHT: bold;
+    COLOR: #666666;
+    TEXT-DECORATION: none
+}
+
+.Nav3 {
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #3300cc;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: #ffffff;
+    TEXT-DECORATION: none
+}
+
+.Nav3 .Option {
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #3300cc;
+    TEXT-DECORATION: none
+}
+
+.Nav3 .Label {
+    COLOR: #000000
+}
+
+.Nav3 .Divider {
+    FONT-WEIGHT: bold;
+    COLOR: #000000
+}
+
+.PageGrid .Spacer {
+    WIDTH: 20px;
+    HEIGHT: 20px
+}
+
+.NavGrid {
+    BACKGROUND-COLOR: #214285
+}
+
+.Button {
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: 1px solid;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Arial;
+    HEIGHT: 20px;
+    BACKGROUND-COLOR: #ffffff
+}
+
+.smallButton {
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: 1px solid;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Arial;
+    HEIGHT: 20px;
+    WIDTH: 55px;
+    BACKGROUND-COLOR: #ffffff
+}
+
+.smallTf {
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: 1px solid;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Arial;
+    HEIGHT: 18px;
+    BACKGROUND-COLOR: #ffffff
+}
+
+.smallTfR {
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: 1px solid;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Arial;
+    HEIGHT: 18px;
+    BACKGROUND-COLOR: #FD3A3A;
+}
+
+.smallTfOrange {
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: 1px solid;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Arial;
+    HEIGHT: 18px;
+    BACKGROUND-COLOR: #fD9A00;
+}
+
+.smallTfForLegend {
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    FONT-SIZE: 6px;
+    BORDER-LEFT: 1px solid;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Arial;
+    HEIGHT: 18px;
+    BACKGROUND-COLOR: #ffffff
+}
+
+.smallTfY {
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: 1px solid;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Arial;
+    HEIGHT: 18px;
+    BACKGROUND-COLOR: #ffff00
+}
+
+.smallTfYForLegend {
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    FONT-SIZE: 6px;
+    BORDER-LEFT: 1px solid;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Arial;
+    HEIGHT: 18px;
+    BACKGROUND-COLOR: #ffff00
+}
+
+.smallTfG {
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: 1px solid;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Arial;
+    HEIGHT: 18px;
+    BACKGROUND-COLOR: 00ff00
+}
+
+.smallTfGForLegend {
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    FONT-SIZE: 6px;
+    BORDER-LEFT: 1px solid;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Arial;
+    HEIGHT: 18px;
+    BACKGROUND-COLOR: 00ff00
+}
+
+.smallTfB {
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: 1px solid;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Arial;
+    HEIGHT: 18px;
+    BACKGROUND-COLOR: 66ccff
+}
+
+.smallTfBForLegend {
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    FONT-SIZE: 6px;
+    BORDER-LEFT: 1px solid;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Arial;
+    HEIGHT: 18px;
+    BACKGROUND-COLOR: 66ccff
+}
+
+.smallTfP {
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: 1px solid;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Arial;
+    HEIGHT: 18px;
+    BACKGROUND-COLOR: #FF00FF
+}
+
+.smallTfPForLegend {
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    FONT-SIZE: 6px;
+    BORDER-LEFT: 1px solid;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Arial;
+    HEIGHT: 18px;
+    BACKGROUND-COLOR: #FF00FF
+}
+
+.tfGray {
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: 1px solid;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Arial;
+    HEIGHT: 18px;
+    BACKGROUND-COLOR: DDDDDD
+}
+
+/* ----- Start------ Added for Budget Usage Page Labels */
+
+.smallLBY
+
+/* For the yellow disabled labels */
+    {
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: 0px;
+    BORDER-BOTTOM: 0px;
+    FONT-FAMILY: Arial;
+    HEIGHT: 18px;
+    BACKGROUND-COLOR: #ffff00
+}
+
+.smallLBB
+
+/* For the blue disabled labels */
+    {
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: 0px;
+    BORDER-BOTTOM: 0px;
+    FONT-FAMILY: Arial;
+    HEIGHT: 18px;
+    BACKGROUND-COLOR: #6CCDFD
+}
+
+.smallLBG
+
+/* For the green disabled labels */
+    {
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: 0px;
+    BORDER-BOTTOM: 0px;
+    FONT-FAMILY: Arial;
+    HEIGHT: 18px;
+    BACKGROUND-COLOR: #00ff00
+}
+
+.smallLBLP
+
+/* For the green disabled labels */
+    {
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: 0px;
+    BORDER-BOTTOM: 0px;
+    FONT-FAMILY: Arial;
+    HEIGHT: 18px;
+    BACKGROUND-COLOR: #FF00FF
+}
+
+.smallLB
+
+/* For the text disabled labels */
+    {
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: 0px;
+    BORDER-BOTTOM: 0px;
+    FONT-FAMILY: Arial;
+    HEIGHT: 18px;
+
+}
+
+/* ----- End ------ Added for Budget Usage Page Labels */
+
+.DetailTable .Info {
+    PADDING-RIGHT: 10px;
+    PADDING-LEFT: 10px;
+    PADDING-BOTTOM: 10px;
+    PADDING-TOP: 10px
+}
+
+.Nav1 .OptionActive {
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: #ffffff;
+    TEXT-DECORATION: none
+}
+
+.Nav1 .SpacerActive {
+    BACKGROUND-COLOR: #ffffff
+}
+
+A {
+    COLOR: #214285;
+}
+
+.DetailTable .Subtitle {
+    PADDING-RIGHT: 5px;
+    PADDING-LEFT: 5px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 16px;
+    PADDING-BOTTOM: 5px;
+    PADDING-TOP: 5px
+}
+
+.IndexTable .Info {
+    PADDING-RIGHT: 10px;
+    PADDING-LEFT: 10px;
+    PADDING-BOTTOM: 10px;
+    PADDING-TOP: 10px
+}
+
+.IndexTable .Control {
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 5px;
+    PADDING-BOTTOM: 3px;
+    PADDING-TOP: 3px;
+    BACKGROUND-COLOR: #cccccc
+}
+
+.FilterTable .Control {
+    BACKGROUND-COLOR: #f6f6f6
+}
+
+.Small {
+    FONT-SIZE: 10px;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: #ffffff
+}
+
+.ErrorMessage {
+    FONT-SIZE: 12px;
+    FONT-WEIGHT: bold;
+    FONT-FAMILY: Arial;
+    COLOR: #ff0000;
+}
+
+.Smalli {
+    FONT-SIZE: 10px;
+    FONT-FAMILY: Arial;
+}
+
+.NormalLabel {
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 5px;
+    FONT-SIZE: 11px;
+    PADDING-BOTTOM: 3px;
+    PADDING-TOP: 3px;
+    BACKGROUND-COLOR: #cccccc;
+    font-weight: normal;
+
+}
+
+.TitleRed {
+
+    PADDING-RIGHT: 2px;
+    PADDING-LEFT: 5px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    PADDING-BOTTOM: 2px;
+    COLOR: #ffffff;
+    PADDING-TOP: 2px;
+    BACKGROUND-COLOR: #D60027
+}
+
+.TitleCEM {
+
+    PADDING-RIGHT: 1px;
+    PADDING-LEFT: 3px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    PADDING-BOTTOM: 1px;
+    COLOR: #ffffff;
+    PADDING-TOP: 1px;
+    BACKGROUND-COLOR: #214285
+}
+
+.TabWhite {
+
+    PADDING-RIGHT: 2px;
+    PADDING-LEFT: 5px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    PADDING-BOTTOM: 2px;
+    COLOR: #ffffff;
+    PADDING-TOP: 2px
+}
+
+.TabTitle {
+
+    PADDING-RIGHT: 2px;
+    PADDING-LEFT: 5px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    PADDING-BOTTOM: 2px;
+    COLOR: #000000;
+    PADDING-TOP: 2px
+}
+
+.dataTable {
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    FONT-SIZE: 12px;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px;
+    PADDING-TOP: 0px;
+    FONT-FAMILY: Arial
+}
+
+.tooltipbg {
+    background: #daebff;
+    color: #333;
+    border: 1px solid #4986b9;
+    padding: 3px;
+    font-size: 11px;
+}
+
+/* --------- POPUP CSS START --------- */
+
+#blanket {
+    background-color: #000;
+    opacity: 0.65;
+    filter: alpha(opacity=0.65);
+    position: fixed;
+    z-index: 9001;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#popUpDiv {
+    position: fixed;
+    background: #fff;
+    width: 500px;
+    min-height: 50px;
+    border: 3px solid #cfcfcf;
+    z-index: 9002;
+    top: 194px;
+    left: 414px;
+}
+
+.closePopup {
+    font: normal 14px Arial, Helvetica, sans-serif;
+    float: right;
+}
+
+#popUpDiv a {
+    color: #fff;
+    text-decoration: none;
+    padding: 2px;
+}
+
+/* --------- POPUP CSS END ---------  */
+.tableTdSpace tr td {
+    padding: 3px 3px 3px 5px;
+}
+
+.mytaskMenu td {
+    padding: 0 5px;
+}
+
+
+.prcProduct tbody td {
+    padding: 5px 3px;
+}
+
+#emailpop {
+    border: solid 2px #000;
+}
+
+.white_content2 {
+    display: none;
+    position: fixed;
+    position: absolute\9;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 650px;
+    height: 300px/9;
+    margin: 0 auto;
+    padding: 0px;
+    background-color: white;
+    z-index: 9999;
+    overflow: visible;
+    border: 4px solid #fff;
+    left: 35%\9;
+    right: 35%\9;
+}
+
+.black_overlay {
+    display: none;
+    position: fixed;
+    position: absolute\9;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 4444;
+    -moz-opacity: 0.8;
+    opacity: .80;
+    filter: alpha(opacity=80);
+    float: left;
+    background-color: rgba(0, 0, 0, 0.5)\9;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+}
+
+#mCbtn {
+    padding: 5px;
+    background: #eee;
+    border: #ccc solid 1px;
+    display: inline-block;
+}
+
+#multiCountySel {
+    font-family: arial;
+    font-size: 12px;
+    padding: 5px;
+}
+
+#contries {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.ui-autocomplete {
+    background: #fff;
+    border: solid 1px #ccc;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    z-index: 999;
+}
+
+.ui-autocomplete li {
+    background: #eee;
+    border-bottom: dotted 1px #ccc;
+    position: relative;
+}
+
+.ui-autocomplete li:hover {
+    background: #214285;
+}
+
+.ui-autocomplete li a {
+    color: #333;
+}
+
+.ui-autocomplete li:hover a {
+    color: #fff;
+}
+
+.ui-autocomplete li a {
+    padding: 5px #ccc;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.adding,
+.removing {
+    background: url('../image/plus.png') no-repeat;
+    margin: 7px 4px 4px 4px;
+    padding: 4px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
+
+.removing {
+    background: url('../image/minus.png') no-repeat !important;
+}
+
+.ui-helper-hidden-accessible {
+    display: none;
+}
+
+#removingPrdMsg {
+    display: none;
+    padding: 10px;
+    background: #fff;
+    position: fixed;
+    margin: 0 auto;
+    top: 40%;
+    right: 0;
+    left: 0;
+    text-align: center;
+    border: solid 1px #000;
+    width: 300px;
+    z-index: 9999;
+    font-size: 12px;
+}
+
+#autoCompDisply,
+.autoComplete {
+    width: 400px;
+    position: relative;
+}
+
+#autoCompDisply .ui-autocomplete,
+.autoComplete .ui-autocomplete {
+    height: 150px;
+    overflow-y: scroll;
+    max-height: 200px;
+    font-family: arial;
+    font-size: 12px;
+    position: absolute !important;
+    top: 20px !important;
+}
+
+.preloader {
+    background: url('../image/preloader-autocomplete.GIF') no-repeat;
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    right: 5px;
+    z-index: 99;
+    display: none;
+    top: 6px;
+}
+
+.alerMsgWhenSave {
+    position: absolute;
+    left: 35%;
+    right: 35%;
+    margin: 0 auto;
+    top: 50%;
+    padding: 10px;
+    background: #fff;
+    border: #000 solid 1px;
+    text-align: center;
+    display: none;
+    width: 30%;
+    z-index: 9999;
+}
+
+.preloaderImg {
+    margin: 0 auto;
+    position: absolute;
+    top: 40%;
+    left: 48%;
+    width: 32px;
+    height: 32px;
+    background: url('../image/preloader.GIF');
+}
+
+.IndexTable .Data2 {
+    background-color: rgb(246, 246, 246);
+    Line-height: 18px;
+    padding: 0 3px 0 5px;
+}
+
+.IndexTable .Data1 {
+    background-color: rgb(255, 255, 255);
+    Line-height: 18px;
+    padding: 0 3px 0 5px;
+}
+
+.pH-aC-d {
+    display: none;
+}
+
+#autoCompleteDistrubutorName {
+    background: transparent\9;
+    position: relative\9;
+    z-index: 999\9
+}
+
+.pH-aC-d {
+    display: block\9;
+    background: #fff none repeat scroll 0 0\9;
+    color: #999;
+    left: 0\9;
+    padding: 2px 5px\9;
+    position: absolute\9;
+    border: #000 solid 1px\9;
+    top: 1px\9;
+    width: 400px\9;
+    z-index: 1\9;
+}
+
+
+/** popup CSS **/
+html {
+    height: 100%;
+}
+
+.schneiderPopup {
+    display: none;
+}
+
+.modalPopup {
+    background: #fff;
+    FONT-FAMILY: Arial;
+    font-size: 12px;
+    border: #ccc solid 1px;
+    margin: 0 auto;
+    position: fixed;
+    position: absolute\9;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.modalPopup table tr td {
+    font-size: 12px !important;
+}
+
+.mpHeader {
+    padding: 6px;
+    background-color: rgb(33, 66, 133);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #FFF;
+    height: 24px;
+}
+
+.mpHeader .title {
+    float: left;
+    line-height: 24px;
+}
+
+.mpClose,
+.alert_close {
+    color: #fff;
+    font-size: 12px;
+    height: 19px;
+    width: 19px;
+    float: right;
+    text-decoration: none;
+    background: url('../image/close.png') no-repeat;
+}
+
+.mpContainer {
+    padding: 5px;
+    height: 150px;
+}
+
+.mpFooter {
+    padding: 5px;
+    border-top: #ccc solid 1px;
+}
+
+.mdOverlay,
+.pagePreloader {
+    position: fixed;
+    position: absolute\9;
+    background: rgba(0, 0, 0, 0.5);
+    filter: alpha(opacity=50);
+    background: #000;
+    font-family: arial;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 999;
+    height: 100%;
+    width: 100%;
+}
+
+.pagePreloader {
+    z-index: 999999;
+}
+
+.cta {
+    padding: 5px;
+}
+
+input.sb {
+    background: #3a5795;
+    border: solid 1px #333;
+    color: #fff;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+input.cn {
+    background: #ccc;
+    border: solid 1px #999;
+    color: #333;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.docLink {
+    display: block;
+    color: blue;
+    text-decoration: none;
+    padding: 5px;
+}
+
+/** File Upload Css **/
+#fileDetails li {
+    list-style: none;
+    position: relative;
+    width: 200px;
+    padding: 5px;
+}
+
+#fileDetails li .deleteFile {
+    list-style: none;
+    right: 5px;
+}
+
+#fileDetails li.data-2 {
+    background: #eee;
+}
+
+.agUp {
+    background: url('../image/up-down-arw.gif') -12px 0 no-repeat;
+    width: 12px;
+    height: 14px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+}
+
+.agDown {
+    background: url('../image/up-down-arw.gif') -0 0 no-repeat;
+    width: 12px;
+    height: 14px;
+    display: inline-block;
+    position: absolute;
+    top: 16px;
+}
+
+/** JqueryUi Tabs CSS **/
+.ui-widget-content {
+    border: 1px solid #333;
+    background: #ffffff;
+    color: #222222;
+}
+
+.ui-widget {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+.ui-tabs {
+    position: relative;
+    padding: .2em;
+}
+
+.ui-widget-header {
+    border: 1px solid #aaaaaa;
+    background: #214285;
+    color: #222222;
+    font-weight: bold;
+}
+
+.ui-helper-reset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    line-height: 1.3;
+    text-decoration: none;
+    font-size: 100%;
+    list-style: none;
+}
+
+.ui-helper-clearfix:before,
+.ui-helper-clearfix:after {
+    content: "";
+    display: table;
+    border-collapse: collapse;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    margin-bottom: -1px;
+    padding-bottom: 1px;
+}
+
+.ui-tabs .ui-tabs-nav li {
+    list-style: none;
+    float: left;
+    position: relative;
+    top: 0;
+    margin: 1px .2em 0 0;
+    border-bottom-width: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+    border: 1px solid #d3d3d3;
+    background: #e6e6e6;
+    font-weight: normal;
+    color: #555555;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active {
+    border: 1px solid #aaaaaa;
+    background: #ffffff;
+    font-weight: normal;
+    color: #214285;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor,
+.ui-tabs .ui-tabs-nav li.ui-state-disabled .ui-tabs-anchor,
+.ui-tabs .ui-tabs-nav li.ui-tabs-loading .ui-tabs-anchor {
+    cursor: text;
+}
+
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+    float: left;
+    padding: .5em 1em;
+    text-decoration: none;
+}
+
+.ui-state-default a,
+.ui-state-default a:link,
+.ui-state-default a:visited {
+    color: #555555;
+    text-decoration: none;
+}
+
+.ui-state-active a,
+.ui-state-active a:link,
+.ui-state-active a:visited {
+    color: #214285;
+    text-decoration: none;
+}
+
+.ui-tabs .ui-tabs-panel {
+    display: block;
+    border-width: 0;
+    padding: 1em 1.4em;
+    background: none;
+}
+
+.ui-tabs .ui-tabs-nav {
+    margin: 0;
+    padding: .2em .2em 0;
+}
+
+.ui-helper-clearfix {
+    min-height: 0;
+}
+
+.ui-helper-clearfix:before,
+.ui-helper-clearfix:after {
+    content: "";
+    display: table;
+    border-collapse: collapse;
+}
+
+.ui-helper-clearfix:after {
+    clear: both;
+}
+
+.ui-helper-clearfix:before,
+.ui-helper-clearfix:after {
+    content: "";
+    display: table;
+    border-collapse: collapse;
+}
+
+/** JqueryUi Css End **/
+
+/** Alerbox css **/
+.alert_popup {
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    background: rgba(0, 0, 0, 0.5);
+    filter: alpha(opacity=50);
+    background: #000;
+    position: absolute\8;
+}
+
+.alert_box {
+    font-family: arial;
+    width: 30%;
+    height: 150px;
+    background: #fff;
+    border-radius: 3px;
+    position: fixed;
+    position: absolute\8;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.alert_box .mpClose {
+    margin: 7px;
+}
+
+.alert_title {
+    margin: 0;
+    background-color: rgb(33, 66, 133);
+    background-color: rgb(33, 66, 133);
+    height: 34px;
+    padding: 0 10px;
+    line-height: 34px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.alert_message {
+    font-family: arial;
+    padding: 10px;
+    font-size: 12px;
+    color: #333;
+    line-height: 18px;
+}
+
+.alert_close {
+    margin: 5px;
+    cursor: pointer;
+}
+
+/** Column Menu CSS **/
+.column-menu {
+    border: solid 1px #ccc;
+    width: 300px;
+}
+
+.column-menu ul {
+    height: 200px;
+    overflow-y: scroll;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.column-menu ul li {
+    padding: 5px;
+}
+
+.column-header {
+    width: 98%;
+    top: 0;
+    left: 0;
+    background: #fff;
+    padding: 1%;
+    border-bottom: solid #ccc 1px;
+    height: 50px;
+}
+
+.columns-footer {
+    padding: 10px;
+    border-top: solid 1px #ccc;
+}
+
+.ulPlacer {
+    background: #fff;
+}
+
+.column-header h4 {
+    font-size: 18px;
+    margin: 3px 0;
+}
+
+.columns-footer .Button {
+    margin-right: 5px;
+}
+
+.cbms-scroll {
+    width: auto;
+    height: 32px;
+    position: relative;
+    overflow: hidden;
+}
+
+.cbms-scroll ul {
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cbms-scroll ul li {
+    display: inline-block;
+    background: #ccc;
+    margin: 0px;
+    padding: 5px;
+    float: left;
+}
+
+.cbms-scroll .prev {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    z-index: 5;
+    background: #fff;
+    border: solid 1px #333;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.cbms-scroll .next {
+    position: absolute;
+    top: 2px;
+    right: 0;
+    z-index: 5;
+    background: #fff;
+    border: solid 1px #333;
+    padding: 5px;
+    cursor: pointer
+}
+
+.cbms-scroll .container {
+    padding: 0;
+    width: 90%;
+    overflow: hidden;
+    position: relative;
+    height: 32px;
+    background: #ccc;
+}
+
+.columns-footer {
+    background: #fff;
+}
+
+/*Page navigation links style */
+.pageNav {
+    margin: 0 auto;
+}
+
+.pageNav>ul {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+.pageNav li {
+    background: #eee none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    display: inline-block;
+    margin-right: 1px;
+    padding: 5px;
+}
+
+.pageNav li a {
+    text-decoration: none;
+}
+
+.pageNav li.current {
+    background: #214285;
+}
+
+.pageNav li.current a {
+    color: #fff;
+}
+
+/*data table style*/
+.DataTable tr.Data1 {
+    background: #eee;
+}
+
+.DataTable tr.Data2 {
+    background: #FFF;
+}
+
+.DataTable tr td {
+    padding: 3px;
+}
+
+/* alert box styles */
+.alert-wrapper {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: arial;
+    font-size: 12px;
+    z-index: 999999;
+}
+
+.alert-box {
+    margin: 0 auto;
+    position: absolute;
+    background: #ffffff;
+    border: solid 1px #666;
+    border-radius: 3px;
+}
+
+.alert-box .alert-okBtn {
+    float: right;
+    padding: 5px 20px;
+    border: solid 1px #ccc;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+.alert-okBtn:hover {
+    background: #fff555
+}
+
+.alert-footer {
+    padding: 10px;
+    border-top: solid 1px #ccc;
+}
+
+.alert-content {
+    padding: 20px;
+    over-flow: hidden;
+}
+
+/* alert box styles */
+/* file upload box styles */
+.cbms-fileUpload {
+    border: solid #ccc 1px;
+}
+
+.uploadedList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cbms-fileUpload .uploadedList li {
+    border: solid #ccc 1px;
+    padding: 5px;
+    border-bottom: none;
+    font-size: 12px;
+    font-family: arial;
+}
+
+.cbms-fileUpload .uploadedList li:nth-child(even) {
+    background: #ffffff;
+}
+
+.cbms-fileUpload .uploadedList li:nth-child(odd) {
+    background: #eeeeee;
+}
+
+.cbms-fileUpload .uploadedList li:last-child {
+    border-bottom: solid #ccc 1px;
+}
+
+/* file upload box styles */
+.iePlaceholder {
+    position: absolute;
+    left: 5px;
+    top: 0px;
+    color: #999;
+    z-index: 0;
+    display: none;
+}

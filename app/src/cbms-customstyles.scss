@@ -1,0 +1,982 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'all.css';
+
+BODY {
+    padding: 0px;
+    margin: 0px;
+    background: #fff;
+    color: #212529;
+    font-size: 12px;
+    background-color: transparent !important;
+}
+
+th {
+    font-size: 13px;
+}
+
+.Nav1 {
+    background: #000;
+    text-align: center;
+}
+
+.Nav2 {
+    font-weight: bold;
+    font-size: 12px;
+    color: #000;
+    font-family: arial;
+    background: #214285;
+    text-align: center;
+    text-decoration: none;
+}
+
+.Header {
+    BACKGROUND-COLOR: #214285
+}
+
+.HeaderBase {
+    BACKGROUND-POSITION: left top;
+    BACKGROUND-IMAGE: url(./assets/images/summit_header_base.jpg);
+    BACKGROUND-REPEAT: repeat-x
+}
+
+.Nav1 .Option {
+    FONT-WEIGHT: bold;
+    font-size: 12px;
+    COLOR: #ffffff;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: none
+}
+
+.Nav1 .Divider {
+    BACKGROUND-COLOR: #ff9218
+}
+
+.Nav2 .Option {
+    font-size: 12px;
+    COLOR: #ffffff;
+    TEXT-ALIGN: center;
+    TEXT-DECORATION: none
+}
+
+.Nav2 .Divider {
+    BACKGROUND-COLOR: #ffffff
+}
+
+.PageGrid {
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px;
+    WIDTH: 100%;
+    PADDING-TOP: 0px
+}
+
+.PageGrid .Data {
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 5px;
+    PADDING-BOTTOM: 3px;
+    PADDING-TOP: 5px;
+    font-size: 12px;
+    FONT-FAMILY: Arial
+}
+
+.IndexTable {
+    BORDER-RIGHT: 1px solid;
+    PADDING-RIGHT: 0px;
+    BORDER-TOP: 1px solid;
+    PADDING-LEFT: 0px;
+    font-size: 12px;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px;
+    BORDER-LEFT: 1px solid;
+    PADDING-TOP: 0px;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: #e8f2f5 !important;
+}
+
+.DetailTable {
+    BORDER-RIGHT: 1px solid;
+    PADDING-RIGHT: 0px;
+    BORDER-TOP: 1px solid;
+    PADDING-LEFT: 0px;
+    font-size: 12px;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px;
+    BORDER-LEFT: 1px solid;
+    PADDING-TOP: 0px;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: #efefef;
+    border-color: #939393 !important;
+
+}
+
+.DetailTable .Title {
+    PADDING-RIGHT: 2px;
+    PADDING-LEFT: 5px;
+    FONT-WEIGHT: bold;
+    font-size: 13px;
+    PADDING-BOTTOM: 1px;
+    COLOR: #ffffff;
+    PADDING-TOP: 5px;
+    BACKGROUND-COLOR: #214285
+}
+
+.DetailTable .Label {
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 5px;
+    font-size: 12px;
+    PADDING-BOTTOM: 3px;
+    PADDING-TOP: 5px
+}
+
+.DetailTable .Data {
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 5px;
+    PADDING-BOTTOM: 3px;
+    PADDING-TOP: 5px
+}
+
+INPUT {
+    BORDER-RIGHT: 1px solid;
+    PADDING-RIGHT: 3px;
+    BORDER-TOP: 1px solid;
+    PADDING-LEFT: 3px;
+    BORDER-LEFT: 1px solid;
+    BORDER-BOTTOM: 1px solid;
+    BACKGROUND-COLOR: #ffffff
+}
+
+.red {
+    BORDER-RIGHT: 1px solid;
+    PADDING-RIGHT: 3px;
+    BORDER-TOP: 1px solid;
+    COLOR: #FF0000;
+    PADDING-LEFT: 3px;
+    BORDER-LEFT: 1px solid;
+    BORDER-BOTTOM: 1px solid;
+    BACKGROUND-COLOR: #ffffff
+}
+
+.DetailTable .Control {
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 5px;
+    PADDING-BOTTOM: 3px;
+    PADDING-TOP: 3px;
+    BACKGROUND-COLOR: #cccccc
+}
+
+.IndexTable .Title {
+    PADDING-RIGHT: 2px;
+    PADDING-LEFT: 5px;
+    FONT-WEIGHT: bold;
+    font-size: 13px;
+    PADDING-BOTTOM: 2px;
+    COLOR: white;
+    PADDING-TOP: 2px;
+    BACKGROUND-COLOR: #214285
+}
+
+.IndexTable .Label {
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 5px;
+    FONT-WEIGHT: bold;
+    font-size: 11px;
+    PADDING-BOTTOM: 3px;
+    PADDING-TOP: 3px;
+    BACKGROUND-COLOR: #cccccc
+}
+
+.IndexTable .DarkLabel {
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 5px;
+    FONT-WEIGHT: bold;
+    font-size: 11px;
+    PADDING-BOTTOM: 3px;
+    PADDING-TOP: 3px;
+    COLOR: #FFFFFF;
+    BACKGROUND-COLOR: #999999
+}
+
+.IndexTable .Data1 {
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 5px;
+    PADDING-BOTTOM: 3px;
+    PADDING-TOP: 3px;
+    BACKGROUND-COLOR: #ffffff;
+    font-size: 12px;
+
+}
+
+.IndexTable .Data2 {
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 5px;
+    PADDING-BOTTOM: 3px;
+    PADDING-TOP: 3px;
+    BACKGROUND-COLOR: #f6f6f6;
+    font-size: 12px;
+
+}
+
+.IndexTable .Data3 {
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 5px;
+    font-size: 11px;
+    PADDING-BOTTOM: 3px;
+    PADDING-TOP: 3px;
+    BACKGROUND-COLOR: #ffffff
+}
+
+.IndexTable .Data4 {
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 5px;
+    font-size: 11px;
+    PADDING-BOTTOM: 3px;
+    PADDING-TOP: 3px;
+    BACKGROUND-COLOR: #f6f6f6
+}
+
+.IndexTable .darknames {
+    font-size: 8.0pt;
+    font-family: Arial, sans-serif;
+    BACKGROUND-COLOR: #f6f6f6
+}
+
+.IndexTable .names {
+    font-size: 8.0pt;
+    font-family: Arial, sans-serif;
+}
+
+.IndexTable .DataYellow {
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 5px;
+    PADDING-BOTTOM: 3px;
+    PADDING-TOP: 3px;
+    BACKGROUND-COLOR: #FFFF00
+}
+
+.IndexTable .DataPaleYellow {
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 5px;
+    PADDING-BOTTOM: 3px;
+    PADDING-TOP: 3px;
+    BACKGROUND-COLOR: #FFFF99
+}
+
+.IndexTable .DataErrorOverBill {
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 5px;
+    PADDING-BOTTOM: 3px;
+    PADDING-TOP: 3px;
+    BACKGROUND-COLOR: #ff0000
+}
+
+.IndexTable .DataErrorUnderBill {
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 5px;
+    PADDING-BOTTOM: 3px;
+    PADDING-TOP: 3px;
+    BACKGROUND-COLOR: #ffff00
+}
+
+.IndexTable .Filter {
+    BORDER-RIGHT: 1px;
+    PADDING-RIGHT: 10px;
+    BORDER-TOP: 1px;
+    PADDING-LEFT: 10px;
+    PADDING-BOTTOM: 10px;
+    BORDER-LEFT: 1px;
+    PADDING-TOP: 10px;
+    BORDER-BOTTOM: 1px;
+    BACKGROUND-COLOR: #f6f6f6
+}
+
+.FilterTable {
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 3px;
+    font-size: 10px;
+    PADDING-BOTTOM: 1px;
+    TEXT-TRANSFORM: uppercase;
+    PADDING-TOP: 0px;
+    FONT-FAMILY: Arial
+}
+
+.FilterTable tr td {
+    padding: 5px;
+}
+
+.FilterTable .Label {
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 3px;
+    font-size: 10px;
+    PADDING-BOTTOM: 1px;
+    TEXT-TRANSFORM: uppercase;
+    PADDING-TOP: 0px;
+    BACKGROUND-COLOR: #f6f6f6
+}
+
+.IndexTable .Paging {
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 5px;
+    FONT-WEIGHT: bold;
+    PADDING-BOTTOM: 3px;
+    PADDING-TOP: 3px;
+    BACKGROUND-COLOR: #cccccc
+}
+
+.IndexTable .PagingOption {
+    FONT-WEIGHT: bold;
+    COLOR: #3300cc;
+    TEXT-DECORATION: none
+}
+
+.TitleTable {
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-BOTTOM: 0px;
+    PADDING-TOP: 0px;
+    BACKGROUND-COLOR: #214285
+}
+
+.TitleTable .Title {
+    PADDING-RIGHT: 10px;
+    PADDING-LEFT: 0px;
+    PADDING-BOTTOM: 3px;
+    PADDING-TOP: 3px
+}
+
+.TitleTable .Control {
+    PADDING-RIGHT: 10px;
+    font-size: 13px;
+}
+
+.TitleTable .Option {
+    FONT-WEIGHT: bold;
+    font-size: 12px;
+    COLOR: #ffcc33;
+    TEXT-DECORATION: none
+}
+
+.DarkLabel .Option {
+    FONT-WEIGHT: bold;
+    font-size: 12px;
+    TEXT-DECORATION: none
+}
+
+OPTION {
+    BACKGROUND-COLOR: #ffffff
+}
+
+SELECT {
+    BORDER-RIGHT: 1px;
+    BORDER-TOP: 1px;
+    BORDER-LEFT: 1px;
+    BORDER-BOTTOM: 1px;
+    border-style: solid;
+    text-transform: none !important;
+}
+
+.Nav2 .Label {
+    COLOR: #ffffff
+}
+
+.HybridTable {
+    BORDER-RIGHT: 1px;
+    PADDING-RIGHT: 0px;
+    BORDER-TOP: 1px;
+    PADDING-LEFT: 0px;
+    font-size: 12px;
+    PADDING-BOTTOM: 0px;
+    BORDER-LEFT: 1px;
+    PADDING-TOP: 0px;
+    BORDER-BOTTOM: 1px;
+    FONT-FAMILY: Arial
+}
+
+.HybridTable .Title {
+    PADDING-RIGHT: 2px;
+    PADDING-LEFT: 5px;
+    FONT-WEIGHT: bold;
+    font-size: 12px;
+    PADDING-BOTTOM: 2px;
+    COLOR: #ffffff;
+    PADDING-TOP: 2px;
+    BACKGROUND-COLOR: #214285
+}
+
+.HybridTable .Label {
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 5px;
+    font-size: 10px;
+    PADDING-BOTTOM: 5px;
+    TEXT-TRANSFORM: uppercase;
+    PADDING-TOP: 3px
+}
+
+.HybridTable .Data {
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 5px;
+    FONT-WEIGHT: normal;
+    font-size: 11px;
+    PADDING-BOTTOM: 1px;
+    PADDING-TOP: 1px
+}
+
+.InlineLink {
+    FONT-WEIGHT: bold;
+    COLOR: #3300cc;
+    TEXT-DECORATION: none
+}
+
+.HybridTable .SubTitle {
+    PADDING-RIGHT: 5px;
+    PADDING-LEFT: 5px;
+    FONT-WEIGHT: bold;
+    font-size: 16px;
+    PADDING-BOTTOM: 5px;
+    PADDING-TOP: 5px
+}
+
+.Clean {
+    background-color: transparent;
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none
+}
+
+.CleanGray {
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none;
+    background-color: transparent
+}
+
+.HelpTable {
+    font-size: 12px;
+    FONT-FAMILY: Arial
+}
+
+.HelpTable .Title {
+    PADDING-RIGHT: 2px;
+    PADDING-LEFT: 5px;
+    FONT-WEIGHT: bold;
+    font-size: 12px;
+    PADDING-BOTTOM: 2px;
+    COLOR: #ffffff;
+    PADDING-TOP: 2px;
+    BACKGROUND-COLOR: #ff9900
+}
+
+.HelpTable .Data {
+    PADDING-RIGHT: 10px;
+    PADDING-LEFT: 10px;
+    PADDING-BOTTOM: 10px;
+    PADDING-TOP: 10px
+}
+
+.DetailTable .Spacer {
+    HEIGHT: 5px
+}
+
+.TitleTable .TitleControl {
+    PADDING-RIGHT: 10px;
+    font-size: 13px;
+}
+
+.StepTable {
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    font-size: 11px;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px;
+    PADDING-TOP: 0px;
+    FONT-FAMILY: Arial
+}
+
+.StepTable .StepHeadingActive {
+    PADDING-RIGHT: 20px;
+    PADDING-LEFT: 20px;
+    FONT-WEIGHT: bold;
+    font-size: 12px;
+    PADDING-BOTTOM: 5px;
+    COLOR: #214285;
+    PADDING-TOP: 5px
+}
+
+.StepTable .StepHeadingDisabled {
+    BORDER-RIGHT: 1px;
+    PADDING-RIGHT: 20px;
+    BORDER-TOP: 1px;
+    PADDING-LEFT: 20px;
+    PADDING-BOTTOM: 5px;
+    BORDER-LEFT: 1px;
+    COLOR: #666666;
+    PADDING-TOP: 5px;
+    BORDER-BOTTOM: 1px
+}
+
+.StepTable .StepHeadingEnabled {
+    PADDING-RIGHT: 20px;
+    PADDING-LEFT: 20px;
+    PADDING-BOTTOM: 5px;
+    COLOR: #666666;
+    PADDING-TOP: 5px
+}
+
+.StepTable .StepDescActive {
+    PADDING-RIGHT: 20px;
+    PADDING-LEFT: 20px;
+    FONT-WEIGHT: bold;
+    PADDING-BOTTOM: 20px;
+    COLOR: #214285;
+    PADDING-TOP: 5px
+}
+
+.StepTable .StepDescDisabled {
+    PADDING-RIGHT: 20px;
+    PADDING-LEFT: 20px;
+    PADDING-BOTTOM: 20px;
+    COLOR: #cccccc;
+    PADDING-TOP: 5px
+}
+
+.StepTable .StepDescEnabled {
+    PADDING-RIGHT: 20px;
+    PADDING-LEFT: 20px;
+    PADDING-BOTTOM: 20px;
+    COLOR: #666666;
+    PADDING-TOP: 5px
+}
+
+.StepTable .StepLink {
+    FONT-WEIGHT: bold;
+    COLOR: #666666;
+    TEXT-DECORATION: none
+}
+
+.Nav3 {
+    FONT-WEIGHT: bold;
+    font-size: 12px;
+    COLOR: #3300cc;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: #ffffff;
+    TEXT-DECORATION: none
+}
+
+.Nav3 .Option {
+    FONT-WEIGHT: bold;
+    font-size: 12px;
+    COLOR: #3300cc;
+    TEXT-DECORATION: none
+}
+
+.Nav3 .Label {
+    COLOR: #000000
+}
+
+.Nav3 .Divider {
+    FONT-WEIGHT: bold;
+    COLOR: #000000
+}
+
+.PageGrid .Spacer {
+    WIDTH: 20px;
+    HEIGHT: 20px
+}
+
+.NavGrid {
+    BACKGROUND-COLOR: #214285
+}
+
+.Button {
+    background-color: #0888CA;
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    FONT-WEIGHT: bold;
+    font-size: 12px;
+    BORDER-LEFT: 1px solid;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Arial;
+    HEIGHT: 20px;
+    BACKGROUND-COLOR: #ffffff
+}
+
+.smallButton {
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    FONT-WEIGHT: bold;
+    font-size: 12px;
+    BORDER-LEFT: 1px solid;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Arial;
+    HEIGHT: 20px;
+    WIDTH: 55px;
+    BACKGROUND-COLOR: #ffffff
+}
+
+.smallTf {
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    font-size: 12px;
+    BORDER-LEFT: 1px solid;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Arial;
+    HEIGHT: 18px;
+    BACKGROUND-COLOR: #ffffff
+}
+
+.smallTfR {
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    font-size: 12px;
+    BORDER-LEFT: 1px solid;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Arial;
+    HEIGHT: 18px;
+    BACKGROUND-COLOR: #FD3A3A;
+}
+
+.smallTfOrange {
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    font-size: 12px;
+    BORDER-LEFT: 1px solid;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Arial;
+    HEIGHT: 18px;
+    BACKGROUND-COLOR: #fD9A00;
+}
+
+.smallTfForLegend {
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    font-size: 6px;
+    BORDER-LEFT: 1px solid;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Arial;
+    HEIGHT: 18px;
+    BACKGROUND-COLOR: #ffffff
+}
+
+.smallTfY {
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    font-size: 12px;
+    BORDER-LEFT: 1px solid;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Arial;
+    HEIGHT: 18px;
+    BACKGROUND-COLOR: #ffff00
+}
+
+.smallTfYForLegend {
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    font-size: 6px;
+    BORDER-LEFT: 1px solid;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Arial;
+    HEIGHT: 18px;
+    BACKGROUND-COLOR: #ffff00
+}
+
+.smallTfG {
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    font-size: 12px;
+    BORDER-LEFT: 1px solid;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Arial;
+    HEIGHT: 18px;
+    BACKGROUND-COLOR: 00ff00
+}
+
+.smallTfGForLegend {
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    font-size: 6px;
+    BORDER-LEFT: 1px solid;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Arial;
+    HEIGHT: 18px;
+    BACKGROUND-COLOR: 00ff00
+}
+
+.smallTfB {
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    font-size: 12px;
+    BORDER-LEFT: 1px solid;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Arial;
+    HEIGHT: 18px;
+    BACKGROUND-COLOR: 66ccff
+}
+
+.smallTfBForLegend {
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    font-size: 6px;
+    BORDER-LEFT: 1px solid;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Arial;
+    HEIGHT: 18px;
+    BACKGROUND-COLOR: 66ccff
+}
+
+.smallTfP {
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    font-size: 12px;
+    BORDER-LEFT: 1px solid;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Arial;
+    HEIGHT: 18px;
+    BACKGROUND-COLOR: #FF00FF
+}
+
+.smallTfPForLegend {
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    font-size: 6px;
+    BORDER-LEFT: 1px solid;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Arial;
+    HEIGHT: 18px;
+    BACKGROUND-COLOR: #FF00FF
+}
+
+.tfGray {
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    font-size: 12px;
+    BORDER-LEFT: 1px solid;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Arial;
+    HEIGHT: 18px;
+    BACKGROUND-COLOR: DDDDDD
+}
+
+/* ----- Start------ Added for Budget Usage Page Labels */
+
+.smallLBY
+
+/* For the yellow disabled labels */
+    {
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    font-size: 12px;
+    BORDER-LEFT: 0px;
+    BORDER-BOTTOM: 0px;
+    FONT-FAMILY: Arial;
+    HEIGHT: 18px;
+    BACKGROUND-COLOR: #ffff00
+}
+
+.smallLBB
+
+/* For the blue disabled labels */
+    {
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    font-size: 12px;
+    BORDER-LEFT: 0px;
+    BORDER-BOTTOM: 0px;
+    FONT-FAMILY: Arial;
+    HEIGHT: 18px;
+    BACKGROUND-COLOR: #6CCDFD
+}
+
+.smallLBG
+
+/* For the green disabled labels */
+    {
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    font-size: 12px;
+    BORDER-LEFT: 0px;
+    BORDER-BOTTOM: 0px;
+    FONT-FAMILY: Arial;
+    HEIGHT: 18px;
+    BACKGROUND-COLOR: #00ff00
+}
+
+.smallLBLP
+
+/* For the green disabled labels */
+    {
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    font-size: 12px;
+    BORDER-LEFT: 0px;
+    BORDER-BOTTOM: 0px;
+    FONT-FAMILY: Arial;
+    HEIGHT: 18px;
+    BACKGROUND-COLOR: #FF00FF
+}
+
+.smallLB
+
+/* For the text disabled labels */
+    {
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    font-size: 12px;
+    BORDER-LEFT: 0px;
+    BORDER-BOTTOM: 0px;
+    FONT-FAMILY: Arial;
+    HEIGHT: 18px;
+
+}
+
+/* ----- End ------ Added for Budget Usage Page Labels */
+
+.DetailTable .Info {
+    PADDING-RIGHT: 10px;
+    PADDING-LEFT: 10px;
+    PADDING-BOTTOM: 10px;
+    PADDING-TOP: 10px
+}
+
+.Nav1 .OptionActive {
+    FONT-WEIGHT: bold;
+    font-size: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: #ffffff;
+    TEXT-DECORATION: none
+}
+
+.Nav1 .SpacerActive {
+    BACKGROUND-COLOR: #ffffff
+}
+
+A {
+    COLOR: #214285;
+}
+
+.DetailTable .SubTitle {
+    PADDING-RIGHT: 5px;
+    PADDING-LEFT: 5px;
+    FONT-WEIGHT: bold;
+    font-size: 16px;
+    PADDING-BOTTOM: 5px;
+    PADDING-TOP: 5px
+}
+
+.IndexTable .Info {
+    PADDING-RIGHT: 10px;
+    PADDING-LEFT: 10px;
+    PADDING-BOTTOM: 10px;
+    PADDING-TOP: 10px
+}
+
+.IndexTable .Control {
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 5px;
+    PADDING-BOTTOM: 3px;
+    PADDING-TOP: 3px;
+    BACKGROUND-COLOR: #cccccc
+}
+
+.FilterTable .Control {
+    BACKGROUND-COLOR: #f6f6f6
+}
+
+.Small {
+    font-size: 10px;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: #ffffff
+}
+
+.ErrorMessage {
+    font-size: 12px;
+    FONT-WEIGHT: bold;
+    FONT-FAMILY: Arial;
+    COLOR: #ff0000;
+}
+
+.Smalli {
+    font-size: 10px;
+    FONT-FAMILY: Arial;
+}
+
+.NormalLabel {
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 5px;
+    font-size: 11px;
+    PADDING-BOTTOM: 3px;
+    PADDING-TOP: 3px;
+    BACKGROUND-COLOR: #cccccc;
+    font-weight: normal;
+
+}
+
+.TitleRed {
+
+    PADDING-RIGHT: 2px;
+    PADDING-LEFT: 5px;
+    FONT-WEIGHT: bold;
+    font-size: 12px;
+    PADDING-BOTTOM: 2px;
+    COLOR: #ffffff;
+    PADDING-TOP: 2px;
+    BACKGROUND-COLOR: #D60027
+}
+
+.TitleCEM {
+
+    PADDING-RIGHT: 1px;
+    PADDING-LEFT: 3px;
+    FONT-WEIGHT: bold;
+    font-size: 12px;
+    PADDING-BOTTOM: 1px;
+    COLOR: #ffffff;
+    PADDING-TOP: 1px;
+    BACKGROUND-COLOR: #214285
+}
+
+.TabWhite {
+
+    PADDING-RIGHT: 2px;
+    PADDING-LEFT: 5px;
+    FONT-WEIGHT: bold;
+    font-size: 11px;
+    PADDING-BOTTOM: 2px;
+    COLOR: #ffffff;
+    PADDING-TOP: 2px
+}
+
+.TabTitle {
+
+    PADDING-RIGHT: 2px;
+    PADDING-LEFT: 5px;
+    FONT-WEIGHT: bold;
+    font-size: 12px;
+    PADDING-BOTTOM: 2px;
+    COLOR: #000000;
+    PADDING-TOP: 2px
+}
+
+.dataTable {
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    font-size: 12px;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px;
+    PADDING-TOP: 0px;
+    FONT-FAMILY: Arial
+}
+
+.tooltipbg {
+    background: #daebff;
+    color: #333;
+    border: 1px solid #4986b9;
+    padding: 3px;
+    font-size: 11px;
+}
+
+/* --------- CBMS Header Css Ends --------- */

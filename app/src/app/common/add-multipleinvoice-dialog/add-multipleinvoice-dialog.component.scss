@@ -1,0 +1,49 @@
+.titlebar{
+    padding: 1px 5px;
+}
+.disable-btn {
+    background-color: #cfd1d3;
+    border: 0!important;
+    border-radius: 3px;
+    color: #bdbaba;
+    cursor: auto;
+    font-family: arial;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 3px 9px;
+    margin-top: 16px;
+    pointer-events: none;
+}
+.rightDiv{
+    font-family: arial;
+    font-size: 8px;
+    font-weight: 600;
+    padding: 5px 9px;
+    margin-top: 20px;
+    padding-right:35px;
+  
+}
+.pl5{
+    padding-left: 5px;
+    padding-top: 15px;
+}
+.saveBtn{
+    color: #fff!important;
+    background: #0888ca;
+    padding: 5px 9px!important;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: 600;
+    margin: 0px 5px;
+    border: none;
+}
+.rtDiv{
+    font-family: arial;
+    font-size: 8px;
+    font-weight: 600;
+    padding: 5px 9px;
+    margin-top: 0px;
+    padding-right: 35px;
+    }

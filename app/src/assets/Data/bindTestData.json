@@ -1,0 +1,205 @@
+{
+    "JsonData": [
+        {
+            "controltype": "text",
+            "displayname": "Invoice Number",
+            "controlname": "InvoiceNumber",
+            "cbmsFieldId": 1,
+            "required": true,
+            "displayOrder": 1
+        },
+        {
+            "controltype": "Drop Down",
+            "displayname": "Invoice Type",
+            "controlname": "InvoiceType",
+            "cbmsFieldId": 2,
+            "required": true,
+            "displayOrder": 5,
+            "data": [
+                {
+                    "text": "Cancellation",
+                    "value": 1
+                },
+                {
+                    "text": "Reconciliation",
+                    "value": 2
+                },
+                {
+                    "text": "Invoice Pre-Payment",
+                    "value": 3
+                },
+                {
+                    "text": "Voucher",
+                    "value": 4
+                }
+            ]
+        },
+        {
+            "controltype": "Drop Down",
+            "displayname": "Payment Type",
+            "controlname": "PaymentType",
+            "cbmsFieldId": 3,
+            "required": true,
+            "displayOrder": 9,
+            "data": [
+                {
+                    "text": "DD",
+                    "value": 1
+                },
+                {
+                    "text": "EFT",
+                    "value": 2
+                },
+                {
+                    "text": "PAP",
+                    "value": 3
+                }
+            ]
+        },
+        {
+            "controltype": "Drop Down",
+            "displayname": "Approved Payment Vendor",
+            "controlname": "ApprovedPaymentVendor",
+            "cbmsFieldId": 4,
+            "required": true,
+            "displayOrder": 13,
+            "data": [
+                {
+                    "text": "Anderson city utilities",
+                    "value": 1
+                },
+                {
+                    "text": "Black hills energy (IA)",
+                    "value": 2
+                },
+                {
+                    "text": "Michigan Gas Utilities Corporation",
+                    "value": 3
+                }
+            ]
+        },
+        {
+            "controltype": "date-picker",
+            "displayname": "Received  Date",
+            "controlname": "ReceivedDate",
+            "cbmsFieldId": 5,
+            "displayOrder": 2,
+            "required": true
+        },
+        {
+            "controltype": "date-picker",
+            "displayname": "Due Date",
+            "controlname": "DueDate",
+            "cbmsFieldId": 6,
+            "displayOrder": 6,
+            "required": true
+        },
+        {
+            "controltype": "label",
+            "displayname": "Invoice Start Date",
+            "controlname": "InvoiceStartDate",
+            "cbmsFieldId": 7,
+            "required": true,
+            "displayOrder": 10,
+            "data": "01-May-2022"
+        },
+        {
+            "controltype": "label",
+            "displayname": "Invoice End Date",
+            "controlname": "InvoiceEndDate",
+            "cbmsFieldId": 8,
+            "required": true,
+            "displayOrder": 14,
+            "data": "31-May-2022"
+        },
+        {
+            "controltype": "number",
+            "displayname": "Balance Brought Forward",
+            "controlname": "BalanceBroughtForward",
+            "cbmsFieldId": 9,
+            "displayOrder": 3,
+            "required": true
+        },
+        {
+            "controltype": "number",
+            "displayname": "Net Value",
+            "controlname": "NetValue",
+            "cbmsFieldId": 10,
+            "displayOrder": 8,
+            "required": true
+        },
+        {
+            "controltype": "number",
+            "displayname": "Gross Value",
+            "controlname": "GrossValue",
+            "cbmsFieldId": 11,
+            "displayOrder": 11,
+            "required": true
+        },
+        {
+            "controltype": "secret",
+            "displayname": "Payment Amount",
+            "controlname": "PaymentAmount",
+            "cbmsFieldId": 12,
+            "displayOrder": 15,
+            "required": true
+        },
+        {
+            "controltype": "ReEntervalue",
+            "displayname": "Re-Enter Payment Amount",
+            "controlname": "ReEnterPaymentAmount",
+            "cbmsFieldId": 13,
+            "displayOrder": 19,
+            "required": true,
+            "matchTo": "PaymentAmount"
+        },
+        {
+            "controltype": "number",
+            "displayname": "VAT Percentage",
+            "controlname": "VatPercentage",
+            "cbmsFieldId": 14,
+            "displayOrder": 4,
+            "required": false
+        },
+        {
+            "controltype": "number",
+            "displayname": "VAT Value",
+            "controlname": "VatValue",
+            "cbmsFieldId": 15,
+            "displayOrder": 8,
+            "required": false
+        },
+        {
+            "controltype": "number",
+            "displayname": "Deposit",
+            "controlname": "Deposit",
+            "cbmsFieldId": 16,
+            "displayOrder": 12,
+            "required": false
+        },
+        {
+            "controltype": "text",
+            "displayname": "Market Indicator",
+            "controlname": "MarketIndicator",
+            "cbmsFieldId": 17,
+            "displayOrder": 16,
+            "required": false
+        },
+        {
+            "controltype": "",
+            "displayname": "",
+            "controlname": "Dummy",
+            "cbmsFieldId": 14,
+            "displayOrder": 17,
+            "required": false
+        },
+        {
+            "controltype": "",
+            "displayname": "",
+            "controlname": "Dummy",
+            "cbmsFieldId": 14,
+            "displayOrder": 18,
+            "required": false
+        }
+    ]
+}

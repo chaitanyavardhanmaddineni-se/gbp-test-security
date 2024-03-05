@@ -1,0 +1,17 @@
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.DAO.Sql\bin\Debug\netcoreapp2.2\SE.CBMS.GBP.DAO.Sql.deps.json
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.DAO.Sql\bin\Debug\netcoreapp2.2\SE.CBMS.GBP.DAO.Sql.dll
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.DAO.Sql\bin\Debug\netcoreapp2.2\SE.CBMS.GBP.DAO.Sql.pdb
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.DAO.Sql\bin\Debug\netcoreapp2.2\SE.CBMS.GBP.Business.dll
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.DAO.Sql\bin\Debug\netcoreapp2.2\SE.CBMS.GBP.DAO.Interfaces.dll
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.DAO.Sql\bin\Debug\netcoreapp2.2\SE.CBMS.GBP.ViewModels.dll
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.DAO.Sql\bin\Debug\netcoreapp2.2\SE.CBMS.GBP.Business.pdb
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.DAO.Sql\bin\Debug\netcoreapp2.2\SE.CBMS.GBP.DAO.Interfaces.pdb
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.DAO.Sql\bin\Debug\netcoreapp2.2\SE.CBMS.GBP.ViewModels.pdb
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.DAO.Sql\obj\Debug\netcoreapp2.2\SE.CBMS.GBP.DAO.Sql.csproj.AssemblyReference.cache
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.DAO.Sql\obj\Debug\netcoreapp2.2\SE.CBMS.GBP.DAO.Sql.GeneratedMSBuildEditorConfig.editorconfig
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.DAO.Sql\obj\Debug\netcoreapp2.2\SE.CBMS.GBP.DAO.Sql.AssemblyInfoInputs.cache
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.DAO.Sql\obj\Debug\netcoreapp2.2\SE.CBMS.GBP.DAO.Sql.AssemblyInfo.cs
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.DAO.Sql\obj\Debug\netcoreapp2.2\SE.CBMS.GBP.DAO.Sql.csproj.CoreCompileInputs.cache
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.DAO.Sql\obj\Debug\netcoreapp2.2\SE.CBMS.GBP.DAO.Sql.csproj.CopyComplete
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.DAO.Sql\obj\Debug\netcoreapp2.2\SE.CBMS.GBP.DAO.Sql.dll
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.DAO.Sql\obj\Debug\netcoreapp2.2\SE.CBMS.GBP.DAO.Sql.pdb

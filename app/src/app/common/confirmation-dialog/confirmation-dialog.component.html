@@ -1,0 +1,21 @@
+<kendo-dialog (close)="close('')">
+  <kendo-dialog-titlebar class="titlebar">
+    <div style="font-size: 15px; line-height: 1.3em;">
+      <span>{{title}}</span>
+    </div>
+  </kendo-dialog-titlebar>
+    <div class="messageDiv">
+      <p class="messageClass">{{ message }}</p>
+    </div>
+     <div>
+     <span>{{ exceptionDetails }}</span>
+    </div>
+    <div class="centerDiv">
+    <kendo-dialog-actions>
+        <ng-template ngFor [ngForOf]="buttons" let-btn>
+            <button kendoButton class="yesBtn spaceMar mr-1 " (click)="close(btn)">{{ btn }}</button>
+        </ng-template>
+    </kendo-dialog-actions>
+  </div>
+  </kendo-dialog>
+  

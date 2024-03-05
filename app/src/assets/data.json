@@ -1,0 +1,13 @@
+[{"name":"CBMS","href":"cbms/dealticket/workQueuesHomeAction.do", "target":""},
+{"name":"Client Info","href":"cbms/cis/searchClientInfoAction.do", "target":""},
+{"name":"Invoices","href":"cbms/reports/reportsRedirectAction.do?url=http://cbmsnet-stg1.ems.schneider-electric.com/ip2/default.aspx", "target":""},
+{"name":"Sustainability","href":"/cbms/reports/reportsRedirectAction.do?url=http://cbmsnet-stg1.ems.schneider-electric.com/Sustainability/Default.aspx", "target":""},
+{"name":"UBM","href":"cbms/ubmbatchjob/ubmBatchJobHomeAction.do", "target":""},
+{"name":"Rate Library","href":"cbms/ubmbatchjob/ubmBatchJobHomeAction.do", "target":""},
+{"name":"Contract","href":"cbms/contract/contractHomeAction.do", "target":""},
+{"name":"Risk Mgmt","href":"/cbms/dealticket/riskManagementHomeAction.do", "target":""},
+{"name":"Tools","href":"cbms/savings/toolsAction.do", "target":""},
+{"name":"Resources","href":"cbms/reports/reportsRedirectAction.do?url=http://cbmsnet-stg1.ems.schneider-electric.com/overview/dvpagelist.aspx", "target":""},
+{"name":"Reports","href":"cbms/reports/reportsRedirectAction.do?url=http://cbmsnet-stg1.ems.schneider-electric.com/report/default.aspx", "target":""},
+{"name":"System","href":"cbms/reports/reportsRedirectAction.do?url=http://cbmsnet-stg1.ems.schneider-electric.com/system/default.aspx", "target":""},
+{"name":"Help","href":"cbms/reports/reportsRedirectAction.do?url=https://servicedeskstg1.ems.schneider-electric.com/servicedesk/customer/portal/77/group/159", "target":"_blank"}]

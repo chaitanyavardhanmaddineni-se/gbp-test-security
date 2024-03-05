@@ -1,0 +1,16 @@
+{
+    "AdditionData": [
+        {
+            "Key": "Deposit",
+            "KeyData": "GrossValue"
+        },
+        {
+            "Key": "BalanceBroughtForward",
+            "KeyData": "GrossValue"
+        },
+        {
+            "Key": "InvoiceSubmittedMessage",
+            "KeyData": "Invoice is already submitted and sent to D365, hence invoice numbers can't be saved"
+        }
+    ]
+}

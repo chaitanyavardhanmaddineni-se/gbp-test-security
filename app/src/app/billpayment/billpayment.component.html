@@ -1,0 +1,86 @@
+<div class="mainContainer">
+    <app-account-section [isLinkDisabled]="ispmtbtnDisabled" [accountgridData]="invoiceDetails"></app-account-section>
+    <br />
+    <app-payment-processing [paymentprocessinggridData]="paymentProcess"></app-payment-processing>
+    <br/>
+    <!-- *ngIf = "invoiceId" -->
+    <div>
+        <form [formGroup]="FormInvoiceSearch">
+            <div class="bx-header gridHeader row">
+                Payment Fields</div>
+            <div class="subContainer">
+
+                <div class="groupContainer" *ngFor="let item of gbpJson; let i = index;">
+                    <div class="formRow">
+                        <div class="col30">
+                            <label for="freetext">{{item.displayFieldName}} <span *ngIf="item.isRequired"
+                                    style="color:red">*</span> &nbsp;&nbsp;</label>
+
+                            <div class="col50">
+                                <input type="text" class="txtBox" kendoTextBox *ngIf="item.fieldType=='Free Text'"
+                                    [formControlName]="item.fieldName">
+                                <label class="viewmultipleinvoices"
+                                    style="float: right; width: 50px; height: 10px; font-weight: lighter; font-size:10px;"
+                                    *ngIf="item.fieldName =='InvoiceNumber'" [class.disabled]="!isGroup"
+                                    (click)="isGroup && openMultipleInvoices()">Enter Multiple</label>
+                                <input type="text" class="txtBox" rmNumericdecimal fieldControl="{{item.fieldName}}"
+                                    decimals="{{ 2 }}" kendoTextBox *ngIf="item.fieldType=='Number Text'"
+                                    [formControlName]="item.fieldName" [maxlength]="item.maxLength"
+                                    (change)="handleChange(item.fieldName)" (focus)="eventFocus(item.fieldName)">
+
+                                <input type="text" class="txtBox" rmNumericdecimal decimals="{{ 2 }}"
+                                    fieldControl="{{item.fieldName}}" kendoTextBox
+                                    *ngIf="item.fieldType=='Copy/Paste Disable Text'" [formControlName]="item.fieldName"
+                                    [maxlength]="item.maxLength" (change)="handleChange(item.fieldName)"
+                                    (focus)="eventFocus(item.fieldName)" oncopy="return false" onpaste="return false">
+
+                                <input type="text" class="pw" rmNumericdecimal decimals="{{ 2 }}"
+                                    fieldControl="{{item.fieldName}}" value="secret"
+                                    *ngIf="item.fieldType=='Blind Text'" (change)="valuechange(item.fieldName)"
+                                    [formControlName]="item.fieldName" [maxlength]="item.maxLength"
+                                    oncopy="return false" onpaste="return false">
+
+                                <span *ngIf="item.fieldType=='Blind Text' && FormInvoiceSearch.controls[item.fieldName].value!==null && FormInvoiceSearch.controls[item.fieldName].value!=='' &&
+                                    FormInvoiceSearch.controls[item.fieldName].errors == null" style="color: green;"><i
+                                        class="fa fa-check" aria-hidden="true"></i></span>
+                                <span
+                                    *ngIf="item.fieldType=='Blind Text' && FormInvoiceSearch.controls[item.fieldName].value!==null && FormInvoiceSearch.controls[item.fieldName].value!=='' && FormInvoiceSearch.controls[item.fieldName].errors?.isMatching == false"
+                                    style="color: red;"><i class="fa fa-times" aria-hidden="true"></i></span>
+                                <label *ngIf="item.fieldType=='Label'" for="freetext"
+                                    style="font-weight:bold">{{item.prefillValue | date: 'dd-MMM-yyyy'}}
+                                    &nbsp;&nbsp;</label>
+                                <kendo-combobox kendoTooltip #combobox *ngIf="item.fieldType=='Drop Down'"
+                                    class="dropDownBx" [data]="item.data" [kendoDropDownFilter]="filterSettings"
+                                    valueField="dynamicValue" textField="value" (focus)="toggledropdown(combobox)"
+                                    [valuePrimitive]="true" [filterable]="true" [formControlName]="item.fieldName"
+                                    [popupSettings]="{ width: 'auto' }">
+                                </kendo-combobox>
+                                <kendo-datepicker *ngIf="item.fieldType == 'date-picker'"
+                                    format={{item.customFieldFormat}} [formControlName]="item.fieldName">
+                                </kendo-datepicker>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style=" margin-bottom: 30px;">
+                    <div class="form-row">
+                        <div class="col-md-12">
+                            <button class="bx-btn" (click)="navigateToEditInvoice()">Edit Invoice</button>&nbsp;&nbsp;
+                            <button [ngClass]="isDisabled ? 'disable-btn':'bx-btn'" class="bx-btn"
+                                (click)="PaymentQuestionClick()">Payment -
+                                Question</button>&nbsp;&nbsp;
+                            <button [ngClass]="isPmtAcntSetupBtn ? 'disable-btn':'bx-btn'" class="bx-btn"
+                                (click)="PaymentAccountSetupIssueClick()">Payment - Account Setup
+                                Issue</button>&nbsp;&nbsp;
+                            <button [ngClass]="ispmtbtnDisabled ? 'disable-btn':'bx-btn'" class="bx-btn"
+                                (click)="SendPaymentClick()">Send Payment Data</button>&nbsp;&nbsp;
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <br />
+    <!-- <app-charge-section [chargeGridData]="chargeGridData" [accountgridData]="accountgridData"></app-charge-section> -->
+    <app-charge-section [chargeGridData]="chargeGridData"></app-charge-section>
+</div>

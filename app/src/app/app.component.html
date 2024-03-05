@@ -1,0 +1,9 @@
+<!-- <ng4-loading-spinner [threshold]="0" [timeout]="500000"></ng4-loading-spinner> -->
+<ngx-spinner type="ball-spin-clockwise" [fullScreen]="true" color="#fff" size="medium" bdColor="rgb(0,0,0,0.3)"></ngx-spinner>
+
+<CBMS-lib-CBMS-Base-App *ngIf="!router.url.includes('SiblingInvoice')">
+    <app-breadcrumb></app-breadcrumb>
+</CBMS-lib-CBMS-Base-App>
+<router-outlet></router-outlet>
+<div id="modal-container" class="hidden"></div>
+<div id="overlay" class="hidden"></div>

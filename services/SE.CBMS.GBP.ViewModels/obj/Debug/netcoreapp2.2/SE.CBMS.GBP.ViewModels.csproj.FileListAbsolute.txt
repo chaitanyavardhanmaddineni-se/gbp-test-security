@@ -1,0 +1,10 @@
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.ViewModels\bin\Debug\netcoreapp2.2\SE.CBMS.GBP.ViewModels.deps.json
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.ViewModels\bin\Debug\netcoreapp2.2\SE.CBMS.GBP.ViewModels.dll
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.ViewModels\bin\Debug\netcoreapp2.2\SE.CBMS.GBP.ViewModels.pdb
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.ViewModels\obj\Debug\netcoreapp2.2\SE.CBMS.GBP.ViewModels.csproj.AssemblyReference.cache
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.ViewModels\obj\Debug\netcoreapp2.2\SE.CBMS.GBP.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.ViewModels\obj\Debug\netcoreapp2.2\SE.CBMS.GBP.ViewModels.AssemblyInfoInputs.cache
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.ViewModels\obj\Debug\netcoreapp2.2\SE.CBMS.GBP.ViewModels.AssemblyInfo.cs
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.ViewModels\obj\Debug\netcoreapp2.2\SE.CBMS.GBP.ViewModels.csproj.CoreCompileInputs.cache
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.ViewModels\obj\Debug\netcoreapp2.2\SE.CBMS.GBP.ViewModels.dll
+E:\CbmsWorkingNew\Global-Bill-Pay\GBP Services\SE.CBMS.GBP.Services\SE.CBMS.GBP.ViewModels\obj\Debug\netcoreapp2.2\SE.CBMS.GBP.ViewModels.pdb

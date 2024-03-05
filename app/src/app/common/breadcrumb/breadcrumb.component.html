@@ -1,0 +1,27 @@
+
+<div class="app-content">
+    <div class="breadcrumbBg">
+        <div class="roundBdr">
+            <ol class="breadcrumbRM">
+                <li *ngFor="let breadcrumb of breadcrums; let last = last">
+                    <a *ngIf="breadcrumb.isAbsolute; else relativeUrlRouting" class="breadcrumb-item"
+                        [class.disabled]="last" href="{{breadcrumb.url}}" target="_blank">{{ breadcrumb.label}}</a>
+                    <ng-template #relativeUrlRouting>
+                        <a *ngIf="breadcrumb.Optionalparam!=null" class="breadcrumb-item" [class.disabled]="last"
+                            [routerLink]="[breadcrumb.url,breadcrumb.Optionalparam]">
+                            <!-- <font [class.Option]="!last">{{ breadcrumb.label}}</font> -->{{breadcrumb.label}}
+                        </a>
+                        <a *ngIf="breadcrumb.Optionalparam==null" class="breadcrumb-item" [class.disabled]="last"
+                            [routerLink]="[breadcrumb.url]">
+                            <!-- <font [class.Option]="!last">{{ breadcrumb.label}}</font> -->{{ breadcrumb.label}}
+                        </a>
+                    </ng-template>
+                    <span class="breadcrumb-separator" *ngIf="!last">-</span>
+                </li>
+            </ol>
+        </div>
+    </div>
+    <div>
+        <ng-content></ng-content>
+    </div>
+</div>

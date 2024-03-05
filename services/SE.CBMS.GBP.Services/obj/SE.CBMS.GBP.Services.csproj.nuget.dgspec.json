@@ -1,0 +1,637 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.Services.csproj": {}
+  },
+  "projects": {
+    "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.Business\\SE.CBMS.GBP.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.Business\\SE.CBMS.GBP.Business.csproj",
+        "projectName": "SE.CBMS.GBP.Business",
+        "projectPath": "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.Business\\SE.CBMS.GBP.Business.csproj",
+        "packagesPath": "C:\\Users\\bkunturu\\.nuget\\packages\\",
+        "outputPath": "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bkunturu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/SchneiderElectric-ESS/_packaging/Schneider-Electric-US/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.DAO.Interfaces\\SE.CBMS.GBP.DAO.Interfaces.csproj": {
+                "projectPath": "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.DAO.Interfaces\\SE.CBMS.GBP.DAO.Interfaces.csproj"
+              },
+              "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.ViewModels\\SE.CBMS.GBP.ViewModels.csproj": {
+                "projectPath": "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.ViewModels\\SE.CBMS.GBP.ViewModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.DAO.Interfaces\\SE.CBMS.GBP.DAO.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.DAO.Interfaces\\SE.CBMS.GBP.DAO.Interfaces.csproj",
+        "projectName": "SE.CBMS.GBP.DAO.Interfaces",
+        "projectPath": "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.DAO.Interfaces\\SE.CBMS.GBP.DAO.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\bkunturu\\.nuget\\packages\\",
+        "outputPath": "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.DAO.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bkunturu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/SchneiderElectric-ESS/_packaging/Schneider-Electric-US/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.ViewModels\\SE.CBMS.GBP.ViewModels.csproj": {
+                "projectPath": "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.ViewModels\\SE.CBMS.GBP.ViewModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.DAO.Sql\\SE.CBMS.GBP.DAO.Sql.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.DAO.Sql\\SE.CBMS.GBP.DAO.Sql.csproj",
+        "projectName": "SE.CBMS.GBP.DAO.Sql",
+        "projectPath": "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.DAO.Sql\\SE.CBMS.GBP.DAO.Sql.csproj",
+        "packagesPath": "C:\\Users\\bkunturu\\.nuget\\packages\\",
+        "outputPath": "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.DAO.Sql\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bkunturu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/SchneiderElectric-ESS/_packaging/Schneider-Electric-US/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.Business\\SE.CBMS.GBP.Business.csproj": {
+                "projectPath": "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.Business\\SE.CBMS.GBP.Business.csproj"
+              },
+              "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.DAO.Interfaces\\SE.CBMS.GBP.DAO.Interfaces.csproj": {
+                "projectPath": "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.DAO.Interfaces\\SE.CBMS.GBP.DAO.Interfaces.csproj"
+              },
+              "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.ViewModels\\SE.CBMS.GBP.ViewModels.csproj": {
+                "projectPath": "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.ViewModels\\SE.CBMS.GBP.ViewModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.Orchestration\\SE.CBMS.GBP.Orchestration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.Orchestration\\SE.CBMS.GBP.Orchestration.csproj",
+        "projectName": "SE.CBMS.GBP.Orchestration",
+        "projectPath": "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.Orchestration\\SE.CBMS.GBP.Orchestration.csproj",
+        "packagesPath": "C:\\Users\\bkunturu\\.nuget\\packages\\",
+        "outputPath": "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.Orchestration\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bkunturu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/SchneiderElectric-ESS/_packaging/Schneider-Electric-US/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.DAO.Interfaces\\SE.CBMS.GBP.DAO.Interfaces.csproj": {
+                "projectPath": "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.DAO.Interfaces\\SE.CBMS.GBP.DAO.Interfaces.csproj"
+              },
+              "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.DAO.Sql\\SE.CBMS.GBP.DAO.Sql.csproj": {
+                "projectPath": "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.DAO.Sql\\SE.CBMS.GBP.DAO.Sql.csproj"
+              },
+              "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.ViewModels\\SE.CBMS.GBP.ViewModels.csproj": {
+                "projectPath": "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.ViewModels\\SE.CBMS.GBP.ViewModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.Services.csproj",
+        "projectName": "SE.CBMS.GBP.Services",
+        "projectPath": "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.Services.csproj",
+        "packagesPath": "C:\\Users\\bkunturu\\.nuget\\packages\\",
+        "outputPath": "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bkunturu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/SchneiderElectric-ESS/_packaging/Schneider-Electric-US/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.Business\\SE.CBMS.GBP.Business.csproj": {
+                "projectPath": "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.Business\\SE.CBMS.GBP.Business.csproj"
+              },
+              "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.Orchestration\\SE.CBMS.GBP.Orchestration.csproj": {
+                "projectPath": "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.Orchestration\\SE.CBMS.GBP.Orchestration.csproj"
+              },
+              "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.ViewModels\\SE.CBMS.GBP.ViewModels.csproj": {
+                "projectPath": "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.ViewModels\\SE.CBMS.GBP.ViewModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Logging.Log4Net.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.ViewModels\\SE.CBMS.GBP.ViewModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.ViewModels\\SE.CBMS.GBP.ViewModels.csproj",
+        "projectName": "SE.CBMS.GBP.ViewModels",
+        "projectPath": "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.ViewModels\\SE.CBMS.GBP.ViewModels.csproj",
+        "packagesPath": "C:\\Users\\bkunturu\\.nuget\\packages\\",
+        "outputPath": "E:\\CbmsWorkingNew\\Global-Bill-Pay\\GBP Services\\SE.CBMS.GBP.Services\\SE.CBMS.GBP.ViewModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bkunturu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/SchneiderElectric-ESS/_packaging/Schneider-Electric-US/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

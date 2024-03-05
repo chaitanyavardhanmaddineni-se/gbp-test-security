@@ -1,0 +1,23 @@
+<div *ngIf="groupedPaymentData && groupedPaymentData.length > 0">
+  <div *ngFor="let account of groupedPaymentData" class="processsubContainer">
+    <div class="bx-header processgridHeader">
+      Watch List/Processing Instructions
+      <span *ngIf="account.accountNumber">({{ account.accountNumber }})</span>
+    </div>
+    <div class="paymentinfo">
+      <ng-container *ngIf="account.record; else noRecords">
+        <div class="inlineDiv left">
+          <label></label>
+          <span>{{ account.record.processInstructions }}</span>
+        </div>
+        <div class="inlineDiv right">
+          <label>Last Edited: </label>
+          <span>{{ account.record.lastUpdate | date:'short' }} by {{ account.record.updatedUser }}</span>
+        </div>
+      </ng-container>
+      <ng-template #noRecords>
+        <span>No records Found</span>
+      </ng-template>
+    </div>
+  </div>
+</div>

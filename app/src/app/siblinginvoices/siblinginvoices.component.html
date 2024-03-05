@@ -1,0 +1,92 @@
+<form [formGroup]="FormSiblingInvoice">
+    <div class="invoiceContainer">
+        <div id="invoiceWidgetGrid">
+            <div class="row">
+                <div class="allInvoiceGrid">
+                    <div id="siGrid">
+                        <!-- <div class="bx-header gridHeader row">
+                            <span>Sibling Invoices</span>
+                        </div> -->
+                        <div>
+                            <nav id="navbarhide" class="navbar navbar-expand-sm navbar-dark sticky-top">
+                              <ul class="navbar-nav">
+                                <li [ngClass]="(index===activeindex)?'nav-item active':'nav-item'" routerLinkActive="active"
+                                  *ngFor="let leader of links;let index=index" [routerLinkActiveOptions]="{exact: leader.name}"
+                                  (click)="activeindex=index">
+                                
+                                  <a  (click)="moduleChange(leader)"class="nav-link tablinks">{{leader.name}}</a>
+                                </li>
+                              </ul>
+                            </nav>
+                        </div>
+                        <kendo-grid class="k-invoice" style="width: 100%;" [data]="gridData" [style.maxHeight.px]="460"
+                            [pageable]="{
+                            buttonCount: buttonCount,
+                            info: info,
+                            type: type,
+                            pageSizes: [25,50,75,100],
+                            previousNext: previousNext
+                        }" [pageSize]="pageSize" [skip]="skip" (pageChange)="pageChange($event)" [selectable]="true"
+                            [sortable]="{allowUnsort: false, mode: 'single'}" [sort]="sort"
+                            (sortChange)="sortChange($event)">
+                            <!-- <kendo-grid-column title="Parent Image Id" field="parentCbmsImageId" width=45
+                                [sortable]="false">
+                            </kendo-grid-column> -->
+                            <kendo-grid-column [title]="this.columnTitle" field="parentCbmsImageId" width=45
+                                [sortable]="false">
+                            </kendo-grid-column>
+                            <kendo-grid-column title="File Name" field="cbmsdocid" width=130>
+                            </kendo-grid-column>
+                            <kendo-grid-column title="Invoice Id" field="invoiceId" width=45>
+                                <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex">
+                                    <a (click)="openInvoice(dataItem)">{{dataItem.invoiceId}}</a>&nbsp;
+                                    <span class="invCol"
+                                        *ngIf="dataItem.isMoveSelectedMonthInvoices!=null && dataItem.accountId!=null && dataItem.invoiceId>0">
+                                        <i title="Invoice '{{dataItem.isMoveSelectedMonthInvoices}}' was submitted for payment in place of '{{dataItem.invoiceId}}' because of Move Selected to Other Month process"
+                                            class="fa fa-exclamation-circle"></i>
+                                    </span>
+                                </ng-template>
+                            </kendo-grid-column>
+                            <kendo-grid-column title="Image Id" field="cbmsImageId" width=36>
+                            </kendo-grid-column>
+                            <kendo-grid-column title="Account Number" field="accountNumber" width=50>
+                                <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex">
+                                    <a (click)="openAccount(dataItem)">{{dataItem.accountNumber}}</a> &nbsp;
+                                    <span class="accCol"
+                                        *ngIf="!dataItem.isPaymentAccount && dataItem.accountId!=null && dataItem.invoiceId>0">
+                                        <i title="Account is not set up for payment"
+                                            class="fa fa-exclamation-circle"></i>
+                                    </span>
+                                </ng-template>
+                            </kendo-grid-column>
+                            <kendo-grid-column title="Payment Status" field="paymentStatus" width=40>
+                            </kendo-grid-column>
+                            <kendo-grid-column title="Invoice Closed" field="invoiceClosed" width=40>
+                            </kendo-grid-column>
+                            <kendo-grid-column title="" field="" width=35>
+                                <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex">
+                                    <a (click)="openViewCost(dataItem)">View Cost and Usage</a>
+                                </ng-template>
+                            </kendo-grid-column>
+
+                            <kendo-grid-column title="Client Id" field="clientId" width=50 hidden="true">
+                            </kendo-grid-column>
+                            <kendo-grid-column title="Client Hier Id" field="clientHierId" width=50 hidden="true">
+                            </kendo-grid-column>
+                            <kendo-grid-column title="Site Group Id" field="siteGroupId" width=50 hidden="true">
+                            </kendo-grid-column>
+                            <kendo-grid-column title="Account Id" field="accountId" width=50 hidden="true">
+                            </kendo-grid-column>
+                            <kendo-grid-column title="Payment Account" field="isPaymentAccount" width=50 hidden="true">
+                            </kendo-grid-column>
+
+                            <ng-template kendoGridNoRecordsTemplate>
+                                No records available.
+                            </ng-template>
+                        </kendo-grid>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

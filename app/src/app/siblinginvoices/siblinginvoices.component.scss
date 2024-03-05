@@ -1,0 +1,90 @@
+.invoiceContainer {
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden !important;
+    background-color: white !important;
+}
+
+.invoiceWidgetGrid {
+    display: block;
+    padding: 0px;
+    margin: 0px;
+}
+
+.gridHeader {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.k-invoice.k-dialog-titlebar {
+    height: 30px;
+    border-color: inherit;
+    color: #ffffff;
+    background-color: #214285;
+}
+
+.invCol {
+    font-size: 12px;
+    color: #306bc3;
+}
+
+.accCol {
+    font-size: 12px;
+    color: red;
+}
+.navbar{
+    padding-left:0px!important;
+    .navbar-nav{
+        line-height: 1;
+        
+        .nav-item{ 
+            background-image: url(../../assets/images/WebResource.png);
+            background-position: 221px -180px;
+            padding: 0px 10px;
+            font: 12px/26px "Segoe UI", Arial, sans-serif;
+            cursor: pointer;
+            a{
+                color: #fff;
+                font-size: 12px;
+                height: 25px;
+                padding-top: 0px;
+             &:hover{
+                 background: none;
+             }
+            }
+            &:hover{
+                background-position:221px -53px;
+               a{
+                   color: #0f3789;
+               }
+            }
+        }
+        .nav-item.active{
+            border-left: 1px solid;
+            border-top:1px solid;
+            border-right: 1px solid;
+            margin-bottom: -1px;
+            cursor: pointer;
+            background: #fff;
+            a{
+                color: #0f3789;;
+                font-size: 12px;
+                height: 25px;
+                padding-top: 0px;
+                &:hover{
+                    color:#0f3789;;
+                    background-color: #fff!important;
+                }
+            }
+            &:hover{
+                background: #fff!important;
+            }
+        }
+    }
+}
+li.nav-item {
+    padding: 0px !important;
+    min-width: 70px !important;
+    text-align: center;
+}
