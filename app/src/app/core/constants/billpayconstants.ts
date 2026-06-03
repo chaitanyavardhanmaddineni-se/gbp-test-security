@@ -8,7 +8,7 @@ export const BillPayConstants = {
     PaymentIncomplete: "Payment - Incomplete",
     LargeGroupBillValidationMsg: "Additional Large Group Bill copies require payment data entry, payment data will be sent after all have been completed.",
     UBMGroupValidationMsg:"Additional UBM invoices require payment data entry, payment data will be sent after all have been completed.",
-    Success: "payment submitted to d365",
+    Success: "Payment submitted but it went to AI pocket",
     Hold: "Hold",
     GroupBill: "Not part of Group Bill",
     PaymentAccountSetupIssueException: "PaymentAccountSetupIssue",
