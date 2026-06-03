@@ -1,0 +1,18 @@
+export const environment = {
+  production: false,
+  CBMSServiceUrl: '',
+  CBMSManageClient: '',
+  CBMSHomePage: '',
+  appLoginURL: '',
+  apiBaseUrl: '',
+  commonApiServiceUrl: '',
+  ViewCostAndUsuageUrl: '',
+  ViewInvoice: '',
+  ViewAccount: '',
+  ViewAccountSupplier: '',
+  useLocalBillPayStorage: true,
+  EditInvoice: '/BillPay',
+  QueueUrl: '/BillPay',
+  FetchImageDetails: '',
+  moduleName: '',
+};

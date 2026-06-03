@@ -9,9 +9,11 @@
     "build-track1": "ng build --configuration=track1 --base-href=/GlobalBillPay/app/ --no-source-map --aot --output-hashing=all",
     "build-track2": "ng build --configuration=track2 --base-href=/GlobalBillPay/app/ --no-source-map --aot --output-hashing=all",
     "build-stg": "ng build --configuration=staging --base-href=/GlobalBillPay/app/ --no-source-map --aot --output-hashing=all",
+    "build-local": "ng build --configuration=local",
     "build-prod": "ng build --configuration=production --base-href=/GlobalBillPay/app/ --no-source-map --aot --output-hashing=all",
     "build-tctrack3": "ng build --configuration=track3 --base-href=/GlobalBillPay/app/ --no-source-map --aot --output-hashing=all",
     "build": "ng build",
+    "start-local": "ng serve --configuration=local",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

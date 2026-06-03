@@ -14,5 +14,6 @@ export const environment = {
   ViewInvoice: "http://cbmsnet.ems.schneider-electric.com/ip2/cuinvoice/history1.aspx?",
   ViewAccount: 'http://cbms.ems.schneider-electric.com/cbms/cis/viewUtilityAccountAction.do?mode=edit',
   ViewAccountSupplier: 'http://cbms.ems.schneider-electric.com/cbms/contract/supplierAccountConfigurationAction.do?mode=edit',
+  useLocalBillPayStorage: false,
 
 };

@@ -16,6 +16,7 @@ export const environment = {
   ViewInvoice: "http://cbmsnet-tk1.ems.schneider-electric.com/ip2/cuinvoice/history1.aspx?",
   ViewAccount: 'http://cbms-tk1.ems.schneider-electric.com/cbms/cis/viewUtilityAccountAction.do?mode=edit',
   ViewAccountSupplier: 'http://cbms-tk1.ems.schneider-electric.com/cbms/contract/supplierAccountConfigurationAction.do?mode=edit',
+  useLocalBillPayStorage: false,
   EditInvoice: 'http://cbmsnet-tk1.ems.schneider-electric.com/ip2/cuinvoice/editmanualnew.aspx',
   QueueUrl: 'http://cbmsnet-tk1.ems.schneider-electric.com/Queues/app/',
   FetchImageDetails: "http://cbmsnet-tk1.ems.schneider-electric.com/imgserver/InternalImage.aspx?",

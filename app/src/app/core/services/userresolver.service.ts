@@ -16,6 +16,7 @@ import {
 import { Location } from "@angular/common";
 import { environment } from '../../../environments/environment';
 import { UserobjModel } from '../../core/models/model';
+import { LocalBillPayStorageService } from './local-billpay-storage.service';
 
 
 
@@ -38,7 +39,8 @@ export class UserResolver implements Resolve<any> {
     private basePermission: PermissionService,
     private cbmsUtil: CbmsBaseUtilService,
     private location: Location,
-    private userDataservice: BillpaydataService
+    private userDataservice: BillpaydataService,
+    private localBillPayStorageService: LocalBillPayStorageService
   ) {
     if (this.location.path() !== '' && this.location.path().indexOf('uid') !== -1) {
       this.AuthObj = {
@@ -68,6 +70,12 @@ export class UserResolver implements Resolve<any> {
     }
   }
   async resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot) {
+    if (environment.useLocalBillPayStorage) {
+      this.userDataObj = this.localBillPayStorageService.getUserInfo();
+      this.buildUserDataInfo('local-free-user', 'uid');
+      return true;
+    }
+
     if (this.AuthObj !== undefined) {
       if (this.AuthObj.type === 'uid' && this.AuthObj.id != "") {
         this.userInfoObj = await this.cbmsUtil.authenticateUser(this.AuthObj);

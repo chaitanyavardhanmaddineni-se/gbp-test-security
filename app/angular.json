@@ -122,6 +122,21 @@
                 }
               ]
             },
+            "local": {
+              "optimization": false,
+              "sourceMap": true,
+              "namedChunks": true,
+              "aot": true,
+              "extractLicenses": false,
+              "vendorChunk": false,
+              "buildOptimizer": false,
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.local.ts"
+                }
+              ]
+            },
             "production": {
               "fileReplacements": [
                 {
@@ -164,6 +179,9 @@
             },
             "staging": {
               "browserTarget": "cbms-global-bill-payment:build:staging"
+            },
+            "local": {
+              "browserTarget": "cbms-global-bill-payment:build:local"
             },
             "production": {
               "browserTarget": "cbms-global-bill-payment:build:production"
